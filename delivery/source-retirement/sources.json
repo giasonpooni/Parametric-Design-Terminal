@@ -1,0 +1,2687 @@
+{
+  "schema": "notations.source-retirement.v1",
+  "captured_at": "2026-10-03T17:07:15.818504Z",
+  "modules": [
+    {
+      "id": "calibration",
+      "repository": "giasonpooni/Notations-Calibration-Runtime",
+      "repository_id": 1378878940,
+      "import_revision": "e41f61cf5909e58a1a2e60612308ccffe0bfe7de",
+      "upstream_default_revision": "8e2d8364a930eec8236a3e1699d1b9a9e8cb868e",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "9f1aacc664032618a8f8b9462c8ec6bcd83cfc18",
+          "commit": "9f1aacc664032618a8f8b9462c8ec6bcd83cfc18",
+          "retained_ref": "refs/tags/retired/calibration/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "766dabe04cd26804553d708785b4cee54387a370",
+          "commit": "766dabe04cd26804553d708785b4cee54387a370",
+          "retained_ref": "refs/tags/retired/calibration/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "d03e38458fbe0140d4d004f0cf23971adaa6473b",
+          "commit": "d03e38458fbe0140d4d004f0cf23971adaa6473b",
+          "retained_ref": "refs/tags/retired/calibration/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/feat/portable-instrument-v1-20260929",
+          "object": "da3a3d6acb7b0ec0634dcb73b05fce14a15ca734",
+          "commit": "da3a3d6acb7b0ec0634dcb73b05fce14a15ca734",
+          "retained_ref": "refs/tags/retired/calibration/heads/feat/portable-instrument-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "8e2d8364a930eec8236a3e1699d1b9a9e8cb868e",
+          "commit": "8e2d8364a930eec8236a3e1699d1b9a9e8cb868e",
+          "retained_ref": "refs/tags/retired/calibration/heads/main"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "d03e38458fbe0140d4d004f0cf23971adaa6473b",
+          "commit": "d03e38458fbe0140d4d004f0cf23971adaa6473b",
+          "retained_ref": "refs/tags/retired/calibration/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "766dabe04cd26804553d708785b4cee54387a370",
+          "commit": "766dabe04cd26804553d708785b4cee54387a370",
+          "retained_ref": "refs/tags/retired/calibration/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "da3a3d6acb7b0ec0634dcb73b05fce14a15ca734",
+          "commit": "da3a3d6acb7b0ec0634dcb73b05fce14a15ca734",
+          "retained_ref": "refs/tags/retired/calibration/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "9f1aacc664032618a8f8b9462c8ec6bcd83cfc18",
+          "commit": "9f1aacc664032618a8f8b9462c8ec6bcd83cfc18",
+          "retained_ref": "refs/tags/retired/calibration/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/calibration.json",
+        "sha256": "f1f18a4a1b95fd130bedcca07a5cc06f4ea8833f348583e46285d60e75fffa17"
+      }
+    },
+    {
+      "id": "clocksync",
+      "repository": "giasonpooni/Notations-ClockSync",
+      "repository_id": 1378878553,
+      "import_revision": "13c5fe75c7e829c24bae12fcf8386d4831224d4e",
+      "upstream_default_revision": "e0c69d3b4b756ad1597e1cd7921caa05066e4871",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "5a977110a34d2a5ed2c7c29ee505b1650aa1a2c3",
+          "commit": "5a977110a34d2a5ed2c7c29ee505b1650aa1a2c3",
+          "retained_ref": "refs/tags/retired/clocksync/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "d3ba28d7ae4a039bf65950e9a9b74172660d8069",
+          "commit": "d3ba28d7ae4a039bf65950e9a9b74172660d8069",
+          "retained_ref": "refs/tags/retired/clocksync/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "7b974f1d19d8f48369f3976385444845135eb9ee",
+          "commit": "7b974f1d19d8f48369f3976385444845135eb9ee",
+          "retained_ref": "refs/tags/retired/clocksync/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/time-sync-current-surface-20261003-acdc61",
+          "object": "752ce38af9d97160744449fe1b1267c57384faa7",
+          "commit": "752ce38af9d97160744449fe1b1267c57384faa7",
+          "retained_ref": "refs/tags/retired/clocksync/heads/docs/time-sync-current-surface-20261003-acdc61"
+        },
+        {
+          "ref": "refs/heads/feat/clocksync-product-surface",
+          "object": "a813a1f484c8e15188144cd58a01c7dbe40a2f7b",
+          "commit": "a813a1f484c8e15188144cd58a01c7dbe40a2f7b",
+          "retained_ref": "refs/tags/retired/clocksync/heads/feat/clocksync-product-surface"
+        },
+        {
+          "ref": "refs/heads/feat/instrument-contract-v1-20260929",
+          "object": "a45f915c28751b8849268d66c794c40e0744223d",
+          "commit": "a45f915c28751b8849268d66c794c40e0744223d",
+          "retained_ref": "refs/tags/retired/clocksync/heads/feat/instrument-contract-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "e0c69d3b4b756ad1597e1cd7921caa05066e4871",
+          "commit": "e0c69d3b4b756ad1597e1cd7921caa05066e4871",
+          "retained_ref": "refs/tags/retired/clocksync/heads/main"
+        },
+        {
+          "ref": "refs/pull/6/head",
+          "object": "752ce38af9d97160744449fe1b1267c57384faa7",
+          "commit": "752ce38af9d97160744449fe1b1267c57384faa7",
+          "retained_ref": "refs/tags/retired/clocksync/pull/6/head"
+        },
+        {
+          "ref": "refs/pull/5/head",
+          "object": "7b974f1d19d8f48369f3976385444845135eb9ee",
+          "commit": "7b974f1d19d8f48369f3976385444845135eb9ee",
+          "retained_ref": "refs/tags/retired/clocksync/pull/5/head"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "d3ba28d7ae4a039bf65950e9a9b74172660d8069",
+          "commit": "d3ba28d7ae4a039bf65950e9a9b74172660d8069",
+          "retained_ref": "refs/tags/retired/clocksync/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "a45f915c28751b8849268d66c794c40e0744223d",
+          "commit": "a45f915c28751b8849268d66c794c40e0744223d",
+          "retained_ref": "refs/tags/retired/clocksync/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "5a977110a34d2a5ed2c7c29ee505b1650aa1a2c3",
+          "commit": "5a977110a34d2a5ed2c7c29ee505b1650aa1a2c3",
+          "retained_ref": "refs/tags/retired/clocksync/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "a813a1f484c8e15188144cd58a01c7dbe40a2f7b",
+          "commit": "a813a1f484c8e15188144cd58a01c7dbe40a2f7b",
+          "retained_ref": "refs/tags/retired/clocksync/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/clocksync.json",
+        "sha256": "c4508fa386504cac5605fdb2a9167cae3bef5be887e239b29278a6bdcac3690a"
+      }
+    },
+    {
+      "id": "observability",
+      "repository": "giasonpooni/Notations-Observability-Testbed",
+      "repository_id": 1378878758,
+      "import_revision": "9d22326c9e230f0d8d21b00ce210e10e72e968fd",
+      "upstream_default_revision": "83a89b595203987659adf1b1457bc97444e9f3ae",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "e3b3d6ec40010945ac9092da85827781ebbabf1f",
+          "commit": "e3b3d6ec40010945ac9092da85827781ebbabf1f",
+          "retained_ref": "refs/tags/retired/observability/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "934a76c87909d1d79750c564e2c5ab34e150a7ea",
+          "commit": "934a76c87909d1d79750c564e2c5ab34e150a7ea",
+          "retained_ref": "refs/tags/retired/observability/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "a6ebdeaa4d46846076c438009304273c3bac3716",
+          "commit": "a6ebdeaa4d46846076c438009304273c3bac3716",
+          "retained_ref": "refs/tags/retired/observability/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "83a89b595203987659adf1b1457bc97444e9f3ae",
+          "commit": "83a89b595203987659adf1b1457bc97444e9f3ae",
+          "retained_ref": "refs/tags/retired/observability/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "a6ebdeaa4d46846076c438009304273c3bac3716",
+          "commit": "a6ebdeaa4d46846076c438009304273c3bac3716",
+          "retained_ref": "refs/tags/retired/observability/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "934a76c87909d1d79750c564e2c5ab34e150a7ea",
+          "commit": "934a76c87909d1d79750c564e2c5ab34e150a7ea",
+          "retained_ref": "refs/tags/retired/observability/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "e3b3d6ec40010945ac9092da85827781ebbabf1f",
+          "commit": "e3b3d6ec40010945ac9092da85827781ebbabf1f",
+          "retained_ref": "refs/tags/retired/observability/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/observability.json",
+        "sha256": "25a64f022b984bf305f659f9bb314505dfe77ff5716d7d48b6ab131c5b04b0ea"
+      }
+    },
+    {
+      "id": "state-inference",
+      "repository": "giasonpooni/Notations-State-Inference-Engine",
+      "repository_id": 1276370996,
+      "import_revision": "4ec062bb72caa76ce1405f2851766589cee9d160",
+      "upstream_default_revision": "fd8363ca912b386f1d2fb819349a156776dff8a1",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "4d10844e1b3098397ccaf9341dab1453f01d3a03",
+          "commit": "4d10844e1b3098397ccaf9341dab1453f01d3a03",
+          "retained_ref": "refs/tags/retired/state-inference/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "3a5f93ad5f4538255bb0a745a8a4957a34732b39",
+          "commit": "3a5f93ad5f4538255bb0a745a8a4957a34732b39",
+          "retained_ref": "refs/tags/retired/state-inference/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "28417ff2e8b3a2f7f2bfc5a0c7bd9a978ca5612e",
+          "commit": "28417ff2e8b3a2f7f2bfc5a0c7bd9a978ca5612e",
+          "retained_ref": "refs/tags/retired/state-inference/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "fd8363ca912b386f1d2fb819349a156776dff8a1",
+          "commit": "fd8363ca912b386f1d2fb819349a156776dff8a1",
+          "retained_ref": "refs/tags/retired/state-inference/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "28417ff2e8b3a2f7f2bfc5a0c7bd9a978ca5612e",
+          "commit": "28417ff2e8b3a2f7f2bfc5a0c7bd9a978ca5612e",
+          "retained_ref": "refs/tags/retired/state-inference/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "3a5f93ad5f4538255bb0a745a8a4957a34732b39",
+          "commit": "3a5f93ad5f4538255bb0a745a8a4957a34732b39",
+          "retained_ref": "refs/tags/retired/state-inference/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "4d10844e1b3098397ccaf9341dab1453f01d3a03",
+          "commit": "4d10844e1b3098397ccaf9341dab1453f01d3a03",
+          "retained_ref": "refs/tags/retired/state-inference/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/state-inference.json",
+        "sha256": "a52421db4c297ccacb60d7020d7a8bc6b342cda915425d9a30551b8803d63eeb"
+      }
+    },
+    {
+      "id": "state-recompiler",
+      "repository": "giasonpooni/Notations-State-Recompiler",
+      "repository_id": 1275681471,
+      "import_revision": "fb01b4a702ba9314b211f933eda800a1e3e9efed",
+      "upstream_default_revision": "ce7d41b27e8bea6b8b4a7519184f880e2f0052a3",
+      "refs": [
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "5e349add701a6f6417959254e7b9b0f04caf0bb6",
+          "commit": "5e349add701a6f6417959254e7b9b0f04caf0bb6",
+          "retained_ref": "refs/tags/retired/state-recompiler/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "accd5557dd1dab3aa8465436a880fdceaa72ed19",
+          "commit": "accd5557dd1dab3aa8465436a880fdceaa72ed19",
+          "retained_ref": "refs/tags/retired/state-recompiler/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "677303f43bde70847c46bab2b86f849b935de2e5",
+          "commit": "677303f43bde70847c46bab2b86f849b935de2e5",
+          "retained_ref": "refs/tags/retired/state-recompiler/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "f0f9c0bd829a79304b7be678a141de1693f9dcde",
+          "commit": "f0f9c0bd829a79304b7be678a141de1693f9dcde",
+          "retained_ref": "refs/tags/retired/state-recompiler/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "ce7d41b27e8bea6b8b4a7519184f880e2f0052a3",
+          "commit": "ce7d41b27e8bea6b8b4a7519184f880e2f0052a3",
+          "retained_ref": "refs/tags/retired/state-recompiler/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "f0f9c0bd829a79304b7be678a141de1693f9dcde",
+          "commit": "f0f9c0bd829a79304b7be678a141de1693f9dcde",
+          "retained_ref": "refs/tags/retired/state-recompiler/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "677303f43bde70847c46bab2b86f849b935de2e5",
+          "commit": "677303f43bde70847c46bab2b86f849b935de2e5",
+          "retained_ref": "refs/tags/retired/state-recompiler/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "accd5557dd1dab3aa8465436a880fdceaa72ed19",
+          "commit": "accd5557dd1dab3aa8465436a880fdceaa72ed19",
+          "retained_ref": "refs/tags/retired/state-recompiler/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/state-recompiler.json",
+        "sha256": "ed2d3d931b220e2aedf2867744e75f34a1f28edec3ede3bc95dc6703bb3f7f56"
+      }
+    },
+    {
+      "id": "faultsense",
+      "repository": "giasonpooni/Notations-FaultSense-RunTime",
+      "repository_id": 1378879318,
+      "import_revision": "00a3f3537964374efbf72d82e4188db002457cd8",
+      "upstream_default_revision": "172aa8e8b01605fc04fca729453c4b4ca12b817b",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "54720a8556040e4fe21d54e9c1eb9497e5e4c84f",
+          "commit": "54720a8556040e4fe21d54e9c1eb9497e5e4c84f",
+          "retained_ref": "refs/tags/retired/faultsense/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "44d7a707add56fa0655db719d80835f704d93112",
+          "commit": "44d7a707add56fa0655db719d80835f704d93112",
+          "retained_ref": "refs/tags/retired/faultsense/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "3f3d0658f700fe8756687c03543737a08632a898",
+          "commit": "3f3d0658f700fe8756687c03543737a08632a898",
+          "retained_ref": "refs/tags/retired/faultsense/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "172aa8e8b01605fc04fca729453c4b4ca12b817b",
+          "commit": "172aa8e8b01605fc04fca729453c4b4ca12b817b",
+          "retained_ref": "refs/tags/retired/faultsense/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "3f3d0658f700fe8756687c03543737a08632a898",
+          "commit": "3f3d0658f700fe8756687c03543737a08632a898",
+          "retained_ref": "refs/tags/retired/faultsense/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "44d7a707add56fa0655db719d80835f704d93112",
+          "commit": "44d7a707add56fa0655db719d80835f704d93112",
+          "retained_ref": "refs/tags/retired/faultsense/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "54720a8556040e4fe21d54e9c1eb9497e5e4c84f",
+          "commit": "54720a8556040e4fe21d54e9c1eb9497e5e4c84f",
+          "retained_ref": "refs/tags/retired/faultsense/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/faultsense.json",
+        "sha256": "9e828650b4433653f7245c4229dffecc25a600701f4139a269fa2883e0e2f4db"
+      }
+    },
+    {
+      "id": "estimator-bench",
+      "repository": "giasonpooni/Notations-Estimator-Bench",
+      "repository_id": 1275432227,
+      "import_revision": "928ae6a76d4f853aa8306fef8207f81244b7066f",
+      "upstream_default_revision": "a50f5eabd808f9672dd411cca4f3d7f1218d63d9",
+      "refs": [
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "b93b5ddd38f52dbf93b9b2ec8982acb65e25d3c7",
+          "commit": "b93b5ddd38f52dbf93b9b2ec8982acb65e25d3c7",
+          "retained_ref": "refs/tags/retired/estimator-bench/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "eaf3566d85925b74e7f82a8702f1d54822dc9069",
+          "commit": "eaf3566d85925b74e7f82a8702f1d54822dc9069",
+          "retained_ref": "refs/tags/retired/estimator-bench/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "f4952fc9a2ce008ac1294b85160c66a0792fb47c",
+          "commit": "f4952fc9a2ce008ac1294b85160c66a0792fb47c",
+          "retained_ref": "refs/tags/retired/estimator-bench/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/public-research-profile-20260929",
+          "object": "8bd3aa633b90d21a7d0eed077b331949709cd62b",
+          "commit": "8bd3aa633b90d21a7d0eed077b331949709cd62b",
+          "retained_ref": "refs/tags/retired/estimator-bench/heads/docs/public-research-profile-20260929"
+        },
+        {
+          "ref": "refs/heads/integration/calibrated-window-replay",
+          "object": "2f838f4e196f453efc3a59045b0b3ec4b5680296",
+          "commit": "2f838f4e196f453efc3a59045b0b3ec4b5680296",
+          "retained_ref": "refs/tags/retired/estimator-bench/heads/integration/calibrated-window-replay"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "a50f5eabd808f9672dd411cca4f3d7f1218d63d9",
+          "commit": "a50f5eabd808f9672dd411cca4f3d7f1218d63d9",
+          "retained_ref": "refs/tags/retired/estimator-bench/heads/main"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "f4952fc9a2ce008ac1294b85160c66a0792fb47c",
+          "commit": "f4952fc9a2ce008ac1294b85160c66a0792fb47c",
+          "retained_ref": "refs/tags/retired/estimator-bench/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "eaf3566d85925b74e7f82a8702f1d54822dc9069",
+          "commit": "eaf3566d85925b74e7f82a8702f1d54822dc9069",
+          "retained_ref": "refs/tags/retired/estimator-bench/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "8bd3aa633b90d21a7d0eed077b331949709cd62b",
+          "commit": "8bd3aa633b90d21a7d0eed077b331949709cd62b",
+          "retained_ref": "refs/tags/retired/estimator-bench/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "2f838f4e196f453efc3a59045b0b3ec4b5680296",
+          "commit": "2f838f4e196f453efc3a59045b0b3ec4b5680296",
+          "retained_ref": "refs/tags/retired/estimator-bench/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/estimator-bench.json",
+        "sha256": "8c9830f8e5e33dfec4b334fb6c59f84df749bf347bce8e11ca80ffc5804beed1"
+      }
+    },
+    {
+      "id": "sensor-design",
+      "repository": "giasonpooni/Notations-SensorDesign-RunTime",
+      "repository_id": 1378879765,
+      "import_revision": "01c84b6d2e60b58ad281735f5ff70eb5c6a3c87f",
+      "upstream_default_revision": "6bef817713082eae32662100e80ace13b1b8bc68",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "d2c45ba8ade3f8cfb9e9832ab0f424a2c94ff23b",
+          "commit": "d2c45ba8ade3f8cfb9e9832ab0f424a2c94ff23b",
+          "retained_ref": "refs/tags/retired/sensor-design/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "ad9678bbb06f0efd8d1040b0690774f0c1c8ddfe",
+          "commit": "ad9678bbb06f0efd8d1040b0690774f0c1c8ddfe",
+          "retained_ref": "refs/tags/retired/sensor-design/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "f9b447e9966543940f19210423a1ef2b6553d035",
+          "commit": "f9b447e9966543940f19210423a1ef2b6553d035",
+          "retained_ref": "refs/tags/retired/sensor-design/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "6bef817713082eae32662100e80ace13b1b8bc68",
+          "commit": "6bef817713082eae32662100e80ace13b1b8bc68",
+          "retained_ref": "refs/tags/retired/sensor-design/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "f9b447e9966543940f19210423a1ef2b6553d035",
+          "commit": "f9b447e9966543940f19210423a1ef2b6553d035",
+          "retained_ref": "refs/tags/retired/sensor-design/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "ad9678bbb06f0efd8d1040b0690774f0c1c8ddfe",
+          "commit": "ad9678bbb06f0efd8d1040b0690774f0c1c8ddfe",
+          "retained_ref": "refs/tags/retired/sensor-design/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "d2c45ba8ade3f8cfb9e9832ab0f424a2c94ff23b",
+          "commit": "d2c45ba8ade3f8cfb9e9832ab0f424a2c94ff23b",
+          "retained_ref": "refs/tags/retired/sensor-design/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/sensor-design.json",
+        "sha256": "9c915388fa123781316d4a6447192993494ac70641844851a0a6ad4841027708"
+      }
+    },
+    {
+      "id": "linear-dynamics",
+      "repository": "giasonpooni/Notations-Linear-Dynamics-Testbed",
+      "repository_id": 1378879169,
+      "import_revision": "bda30a8bd750c7034fa8db4760d74e35eacb8c66",
+      "upstream_default_revision": "4676dce741684e84f91d610de751e32ab9e6d129",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "c7ba9e7f728290bb17aaafc88b8fca2e8a4f8d60",
+          "commit": "c7ba9e7f728290bb17aaafc88b8fca2e8a4f8d60",
+          "retained_ref": "refs/tags/retired/linear-dynamics/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "bd78a007c891b5e8e3c53dd8ae3955b2766db11c",
+          "commit": "bd78a007c891b5e8e3c53dd8ae3955b2766db11c",
+          "retained_ref": "refs/tags/retired/linear-dynamics/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "c3f05e553b38b9bd6763ae1e74126af5cc024fb6",
+          "commit": "c3f05e553b38b9bd6763ae1e74126af5cc024fb6",
+          "retained_ref": "refs/tags/retired/linear-dynamics/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "4676dce741684e84f91d610de751e32ab9e6d129",
+          "commit": "4676dce741684e84f91d610de751e32ab9e6d129",
+          "retained_ref": "refs/tags/retired/linear-dynamics/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "c3f05e553b38b9bd6763ae1e74126af5cc024fb6",
+          "commit": "c3f05e553b38b9bd6763ae1e74126af5cc024fb6",
+          "retained_ref": "refs/tags/retired/linear-dynamics/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "bd78a007c891b5e8e3c53dd8ae3955b2766db11c",
+          "commit": "bd78a007c891b5e8e3c53dd8ae3955b2766db11c",
+          "retained_ref": "refs/tags/retired/linear-dynamics/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "c7ba9e7f728290bb17aaafc88b8fca2e8a4f8d60",
+          "commit": "c7ba9e7f728290bb17aaafc88b8fca2e8a4f8d60",
+          "retained_ref": "refs/tags/retired/linear-dynamics/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/linear-dynamics.json",
+        "sha256": "13823355ec1fe758fe6a11812b5960213637941aa7a89f52fba5ba8941b52efd"
+      }
+    },
+    {
+      "id": "sensitivity",
+      "repository": "giasonpooni/Notations-Sensitivity-Testbed",
+      "repository_id": 1372780016,
+      "import_revision": "341e3586075d6e901cb5528414ef685a58cf4def",
+      "upstream_default_revision": "beac1fafbfed370fa7b15d91fe73f11d2fce3304",
+      "refs": [
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "c12cfb6adfe2e6c59fbef05a7d0b39225e04278d",
+          "commit": "c12cfb6adfe2e6c59fbef05a7d0b39225e04278d",
+          "retained_ref": "refs/tags/retired/sensitivity/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "60654409098faca8d9429a3c6ee7383a4ac09b33",
+          "commit": "60654409098faca8d9429a3c6ee7383a4ac09b33",
+          "retained_ref": "refs/tags/retired/sensitivity/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "25c9318d881eb931d7d3f7625b3a04c19bb23dcd",
+          "commit": "25c9318d881eb931d7d3f7625b3a04c19bb23dcd",
+          "retained_ref": "refs/tags/retired/sensitivity/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/public-research-profile-20260929",
+          "object": "6ad73f18cd6ad0bad868ecb59107667ad05495a5",
+          "commit": "6ad73f18cd6ad0bad868ecb59107667ad05495a5",
+          "retained_ref": "refs/tags/retired/sensitivity/heads/docs/public-research-profile-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/numpy-microtools-v1",
+          "object": "ca2bb547188f019e853290819e71d821405e268c",
+          "commit": "ca2bb547188f019e853290819e71d821405e268c",
+          "retained_ref": "refs/tags/retired/sensitivity/heads/feat/numpy-microtools-v1"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "beac1fafbfed370fa7b15d91fe73f11d2fce3304",
+          "commit": "beac1fafbfed370fa7b15d91fe73f11d2fce3304",
+          "retained_ref": "refs/tags/retired/sensitivity/heads/main"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "25c9318d881eb931d7d3f7625b3a04c19bb23dcd",
+          "commit": "25c9318d881eb931d7d3f7625b3a04c19bb23dcd",
+          "retained_ref": "refs/tags/retired/sensitivity/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "60654409098faca8d9429a3c6ee7383a4ac09b33",
+          "commit": "60654409098faca8d9429a3c6ee7383a4ac09b33",
+          "retained_ref": "refs/tags/retired/sensitivity/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "6ad73f18cd6ad0bad868ecb59107667ad05495a5",
+          "commit": "6ad73f18cd6ad0bad868ecb59107667ad05495a5",
+          "retained_ref": "refs/tags/retired/sensitivity/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "ca2bb547188f019e853290819e71d821405e268c",
+          "commit": "ca2bb547188f019e853290819e71d821405e268c",
+          "retained_ref": "refs/tags/retired/sensitivity/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/sensitivity.json",
+        "sha256": "7860cc092d8c96ab7e9172dc1cf408f1ace5627f128eac023df2186e8de46efa"
+      }
+    },
+    {
+      "id": "metrology",
+      "repository": "giasonpooni/Notations-Metrology-Adapter",
+      "repository_id": 1372870718,
+      "import_revision": "a67cfef9f132d2a756186f34dcc718404084126e",
+      "upstream_default_revision": "7dab919776acdd2ceb54bf490469d3f6617d7a02",
+      "refs": [
+        {
+          "ref": "refs/heads/claude/mtconnect-probe-current",
+          "object": "526a03dd145ebb48f8dc986ff7c94d5e9b8186cf",
+          "commit": "526a03dd145ebb48f8dc986ff7c94d5e9b8186cf",
+          "retained_ref": "refs/tags/retired/metrology/heads/claude/mtconnect-probe-current"
+        },
+        {
+          "ref": "refs/heads/codex/ciw-calibration-adapter",
+          "object": "c5d4b8db2ff3a302b2077db8ccf72cc3333e6c07",
+          "commit": "c5d4b8db2ff3a302b2077db8ccf72cc3333e6c07",
+          "retained_ref": "refs/tags/retired/metrology/heads/codex/ciw-calibration-adapter"
+        },
+        {
+          "ref": "refs/heads/codex/fsrt-retained-view-qualification",
+          "object": "91c0c5e6faaaaf0e7ae0a283773079a8e82933d0",
+          "commit": "91c0c5e6faaaaf0e7ae0a283773079a8e82933d0",
+          "retained_ref": "refs/tags/retired/metrology/heads/codex/fsrt-retained-view-qualification"
+        },
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "6e5a7c1a34c977c7d6396fc948178422d955e358",
+          "commit": "6e5a7c1a34c977c7d6396fc948178422d955e358",
+          "retained_ref": "refs/tags/retired/metrology/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "1e927ef5eed0cfddb2d04dbd8aedcd8bd6536533",
+          "commit": "1e927ef5eed0cfddb2d04dbd8aedcd8bd6536533",
+          "retained_ref": "refs/tags/retired/metrology/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "e98dc6541c15d9354f3bda1045e0536b33a711b8",
+          "commit": "e98dc6541c15d9354f3bda1045e0536b33a711b8",
+          "retained_ref": "refs/tags/retired/metrology/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "17223e3d43f3735cce68bce947de97c48107ed5d",
+          "commit": "17223e3d43f3735cce68bce947de97c48107ed5d",
+          "retained_ref": "refs/tags/retired/metrology/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/feat/synthetic-view-composition-qualification",
+          "object": "e0eae0f4af960aa79f4bf62726a600cb92cd27d5",
+          "commit": "e0eae0f4af960aa79f4bf62726a600cb92cd27d5",
+          "retained_ref": "refs/tags/retired/metrology/heads/feat/synthetic-view-composition-qualification"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "7dab919776acdd2ceb54bf490469d3f6617d7a02",
+          "commit": "7dab919776acdd2ceb54bf490469d3f6617d7a02",
+          "retained_ref": "refs/tags/retired/metrology/heads/main"
+        },
+        {
+          "ref": "refs/heads/qualify/net-integrated-view-20260928",
+          "object": "0b313cacad382d38df291f3ba88c738326364194",
+          "commit": "0b313cacad382d38df291f3ba88c738326364194",
+          "retained_ref": "refs/tags/retired/metrology/heads/qualify/net-integrated-view-20260928"
+        },
+        {
+          "ref": "refs/pull/7/head",
+          "object": "17223e3d43f3735cce68bce947de97c48107ed5d",
+          "commit": "17223e3d43f3735cce68bce947de97c48107ed5d",
+          "retained_ref": "refs/tags/retired/metrology/pull/7/head"
+        },
+        {
+          "ref": "refs/pull/6/head",
+          "object": "e98dc6541c15d9354f3bda1045e0536b33a711b8",
+          "commit": "e98dc6541c15d9354f3bda1045e0536b33a711b8",
+          "retained_ref": "refs/tags/retired/metrology/pull/6/head"
+        },
+        {
+          "ref": "refs/pull/5/head",
+          "object": "1e927ef5eed0cfddb2d04dbd8aedcd8bd6536533",
+          "commit": "1e927ef5eed0cfddb2d04dbd8aedcd8bd6536533",
+          "retained_ref": "refs/tags/retired/metrology/pull/5/head"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "0b313cacad382d38df291f3ba88c738326364194",
+          "commit": "0b313cacad382d38df291f3ba88c738326364194",
+          "retained_ref": "refs/tags/retired/metrology/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "e0eae0f4af960aa79f4bf62726a600cb92cd27d5",
+          "commit": "e0eae0f4af960aa79f4bf62726a600cb92cd27d5",
+          "retained_ref": "refs/tags/retired/metrology/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "91c0c5e6faaaaf0e7ae0a283773079a8e82933d0",
+          "commit": "91c0c5e6faaaaf0e7ae0a283773079a8e82933d0",
+          "retained_ref": "refs/tags/retired/metrology/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "c5d4b8db2ff3a302b2077db8ccf72cc3333e6c07",
+          "commit": "c5d4b8db2ff3a302b2077db8ccf72cc3333e6c07",
+          "retained_ref": "refs/tags/retired/metrology/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/metrology.json",
+        "sha256": "f81bf0b03fdaa20d9bb6d852541b32ef5c9a76edafe1cde57845f32020040586"
+      }
+    },
+    {
+      "id": "signal-processing",
+      "repository": "giasonpooni/Notations-Signal-Processing-RunTime",
+      "repository_id": 1278227466,
+      "import_revision": "749eb75e7300597da54f3e5ab8cfdc7d05e64878",
+      "upstream_default_revision": "c733be17c07112f7ce5633a15868d3664e22edf7",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "aa23dd429af232080081bb347b8c229f90cb7b0b",
+          "commit": "aa23dd429af232080081bb347b8c229f90cb7b0b",
+          "retained_ref": "refs/tags/retired/signal-processing/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "f4bb901b7bae74883c37b9633a1309768e591702",
+          "commit": "f4bb901b7bae74883c37b9633a1309768e591702",
+          "retained_ref": "refs/tags/retired/signal-processing/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "93f62a586d0e71134a75fd786667a8cc25b4b721",
+          "commit": "93f62a586d0e71134a75fd786667a8cc25b4b721",
+          "retained_ref": "refs/tags/retired/signal-processing/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "c733be17c07112f7ce5633a15868d3664e22edf7",
+          "commit": "c733be17c07112f7ce5633a15868d3664e22edf7",
+          "retained_ref": "refs/tags/retired/signal-processing/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "93f62a586d0e71134a75fd786667a8cc25b4b721",
+          "commit": "93f62a586d0e71134a75fd786667a8cc25b4b721",
+          "retained_ref": "refs/tags/retired/signal-processing/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "f4bb901b7bae74883c37b9633a1309768e591702",
+          "commit": "f4bb901b7bae74883c37b9633a1309768e591702",
+          "retained_ref": "refs/tags/retired/signal-processing/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "aa23dd429af232080081bb347b8c229f90cb7b0b",
+          "commit": "aa23dd429af232080081bb347b8c229f90cb7b0b",
+          "retained_ref": "refs/tags/retired/signal-processing/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/signal-processing.json",
+        "sha256": "5ad5061c9fc9d712cd6af042add6017ccb470938f3d5295b023dae59c33a6443"
+      }
+    },
+    {
+      "id": "polygon-trajectories",
+      "repository": "giasonpooni/Polygon-Trajectory-Experiments",
+      "repository_id": 1377611090,
+      "import_revision": "fb30ddf35d860835a2b0a633f735e922d86ea808",
+      "upstream_default_revision": "7ac95cb7a95e5646c55d4da78b61e53980d109e1",
+      "refs": [
+        {
+          "ref": "refs/heads/codex/executable-geometry-20260923",
+          "object": "5e72693e7e5722c47883ef1a68b2959afdf2e215",
+          "commit": "5e72693e7e5722c47883ef1a68b2959afdf2e215",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/heads/codex/executable-geometry-20260923"
+        },
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "b9c2556cbd7e440f97b50fa0df08991eb3c0e479",
+          "commit": "b9c2556cbd7e440f97b50fa0df08991eb3c0e479",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "ea3a702f912a88fa6212895ed7d23172d4374228",
+          "commit": "ea3a702f912a88fa6212895ed7d23172d4374228",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "575d95129cd700ccae0e2585012609044b2e7dab",
+          "commit": "575d95129cd700ccae0e2585012609044b2e7dab",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/public-research-profile-20260929",
+          "object": "e98b75b1a205d75a7572339d69d2b54e0d315383",
+          "commit": "e98b75b1a205d75a7572339d69d2b54e0d315383",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/heads/docs/public-research-profile-20260929"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "7ac95cb7a95e5646c55d4da78b61e53980d109e1",
+          "commit": "7ac95cb7a95e5646c55d4da78b61e53980d109e1",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "575d95129cd700ccae0e2585012609044b2e7dab",
+          "commit": "575d95129cd700ccae0e2585012609044b2e7dab",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "ea3a702f912a88fa6212895ed7d23172d4374228",
+          "commit": "ea3a702f912a88fa6212895ed7d23172d4374228",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "e98b75b1a205d75a7572339d69d2b54e0d315383",
+          "commit": "e98b75b1a205d75a7572339d69d2b54e0d315383",
+          "retained_ref": "refs/tags/retired/polygon-trajectories/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/polygon-trajectories.json",
+        "sha256": "6d43c50fa40bcb7d18fbd5fdb70d7c4b6ec0246043f355fb8a24f43c5a7a5c17"
+      }
+    },
+    {
+      "id": "surface",
+      "repository": "giasonpooni/Notations-Surface-RunTime",
+      "repository_id": 1372809259,
+      "import_revision": "1f7bbe380651e8df82db1760d880330aee3dc229",
+      "upstream_default_revision": "22aec8665cf6c183d1e3722fef4c4d7f68750dfe",
+      "refs": [
+        {
+          "ref": "refs/heads/claude/inspiring-cerf-lqtpm6",
+          "object": "5d3dcc12b64184999c5d7f38e45c5fa25168779e",
+          "commit": "5d3dcc12b64184999c5d7f38e45c5fa25168779e",
+          "retained_ref": "refs/tags/retired/surface/heads/claude/inspiring-cerf-lqtpm6"
+        },
+        {
+          "ref": "refs/heads/claude/zealous-clarke-ou4sbz",
+          "object": "416765636e3f184ae596044a05f4beace77c06f7",
+          "commit": "416765636e3f184ae596044a05f4beace77c06f7",
+          "retained_ref": "refs/tags/retired/surface/heads/claude/zealous-clarke-ou4sbz"
+        },
+        {
+          "ref": "refs/heads/codex/polyglot-linear-map-v1",
+          "object": "386725d8177735a39ae66d3f3556846843f1ee4c",
+          "commit": "386725d8177735a39ae66d3f3556846843f1ee4c",
+          "retained_ref": "refs/tags/retired/surface/heads/codex/polyglot-linear-map-v1"
+        },
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "a01c9cc0a33115a80da497af66ccb0106221d9b0",
+          "commit": "a01c9cc0a33115a80da497af66ccb0106221d9b0",
+          "retained_ref": "refs/tags/retired/surface/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "cf0d241e4a6b9f0f1a7ed78fe422c9071510a774",
+          "commit": "cf0d241e4a6b9f0f1a7ed78fe422c9071510a774",
+          "retained_ref": "refs/tags/retired/surface/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/net-controller-boundary-20260927",
+          "object": "b27aed6f20ed5bedfa3121eba87e3b89accb8978",
+          "commit": "b27aed6f20ed5bedfa3121eba87e3b89accb8978",
+          "retained_ref": "refs/tags/retired/surface/heads/docs/net-controller-boundary-20260927"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "5a137073410d1423dbaacb4b3db205d351089199",
+          "commit": "5a137073410d1423dbaacb4b3db205d351089199",
+          "retained_ref": "refs/tags/retired/surface/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "c1a54013d0ab0333fada114dfa01967ea075b80b",
+          "commit": "c1a54013d0ab0333fada114dfa01967ea075b80b",
+          "retained_ref": "refs/tags/retired/surface/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/feat/curved-surface-microtools-v1-20260928",
+          "object": "334083a4df92b099641d9c86f7a3d47b5da9842b",
+          "commit": "334083a4df92b099641d9c86f7a3d47b5da9842b",
+          "retained_ref": "refs/tags/retired/surface/heads/feat/curved-surface-microtools-v1-20260928"
+        },
+        {
+          "ref": "refs/heads/feat/godot-microtools-v1",
+          "object": "93b82e87d2a03e1745f27a87e54e0761e7fdb4f0",
+          "commit": "93b82e87d2a03e1745f27a87e54e0761e7fdb4f0",
+          "retained_ref": "refs/tags/retired/surface/heads/feat/godot-microtools-v1"
+        },
+        {
+          "ref": "refs/heads/feat/numpy-geometry-microtools-v1",
+          "object": "93a2e3fd6e2dca443534b9f741bb46f195f71ed6",
+          "commit": "93a2e3fd6e2dca443534b9f741bb46f195f71ed6",
+          "retained_ref": "refs/tags/retired/surface/heads/feat/numpy-geometry-microtools-v1"
+        },
+        {
+          "ref": "refs/heads/feat/surface-inspection-interop",
+          "object": "6907bf02137b24e0779639a4d25928dd757622af",
+          "commit": "6907bf02137b24e0779639a4d25928dd757622af",
+          "retained_ref": "refs/tags/retired/surface/heads/feat/surface-inspection-interop"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "22aec8665cf6c183d1e3722fef4c4d7f68750dfe",
+          "commit": "22aec8665cf6c183d1e3722fef4c4d7f68750dfe",
+          "retained_ref": "refs/tags/retired/surface/heads/main"
+        },
+        {
+          "ref": "refs/pull/12/head",
+          "object": "c1a54013d0ab0333fada114dfa01967ea075b80b",
+          "commit": "c1a54013d0ab0333fada114dfa01967ea075b80b",
+          "retained_ref": "refs/tags/retired/surface/pull/12/head"
+        },
+        {
+          "ref": "refs/pull/11/head",
+          "object": "5a137073410d1423dbaacb4b3db205d351089199",
+          "commit": "5a137073410d1423dbaacb4b3db205d351089199",
+          "retained_ref": "refs/tags/retired/surface/pull/11/head"
+        },
+        {
+          "ref": "refs/pull/10/head",
+          "object": "cf0d241e4a6b9f0f1a7ed78fe422c9071510a774",
+          "commit": "cf0d241e4a6b9f0f1a7ed78fe422c9071510a774",
+          "retained_ref": "refs/tags/retired/surface/pull/10/head"
+        },
+        {
+          "ref": "refs/pull/9/head",
+          "object": "93b82e87d2a03e1745f27a87e54e0761e7fdb4f0",
+          "commit": "93b82e87d2a03e1745f27a87e54e0761e7fdb4f0",
+          "retained_ref": "refs/tags/retired/surface/pull/9/head"
+        },
+        {
+          "ref": "refs/pull/8/head",
+          "object": "93a2e3fd6e2dca443534b9f741bb46f195f71ed6",
+          "commit": "93a2e3fd6e2dca443534b9f741bb46f195f71ed6",
+          "retained_ref": "refs/tags/retired/surface/pull/8/head"
+        },
+        {
+          "ref": "refs/pull/7/head",
+          "object": "334083a4df92b099641d9c86f7a3d47b5da9842b",
+          "commit": "334083a4df92b099641d9c86f7a3d47b5da9842b",
+          "retained_ref": "refs/tags/retired/surface/pull/7/head"
+        },
+        {
+          "ref": "refs/pull/6/head",
+          "object": "b27aed6f20ed5bedfa3121eba87e3b89accb8978",
+          "commit": "b27aed6f20ed5bedfa3121eba87e3b89accb8978",
+          "retained_ref": "refs/tags/retired/surface/pull/6/head"
+        },
+        {
+          "ref": "refs/pull/5/head",
+          "object": "386725d8177735a39ae66d3f3556846843f1ee4c",
+          "commit": "386725d8177735a39ae66d3f3556846843f1ee4c",
+          "retained_ref": "refs/tags/retired/surface/pull/5/head"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "6907bf02137b24e0779639a4d25928dd757622af",
+          "commit": "6907bf02137b24e0779639a4d25928dd757622af",
+          "retained_ref": "refs/tags/retired/surface/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "416765636e3f184ae596044a05f4beace77c06f7",
+          "commit": "416765636e3f184ae596044a05f4beace77c06f7",
+          "retained_ref": "refs/tags/retired/surface/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "57cdde3e295ee57859c24cc8a892ff681b7b90cb",
+          "commit": "57cdde3e295ee57859c24cc8a892ff681b7b90cb",
+          "retained_ref": "refs/tags/retired/surface/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "5d3dcc12b64184999c5d7f38e45c5fa25168779e",
+          "commit": "5d3dcc12b64184999c5d7f38e45c5fa25168779e",
+          "retained_ref": "refs/tags/retired/surface/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/surface.json",
+        "sha256": "553ff631046e26becb7d7315d716b9f15979e892d9120d98b9f0575d4bc107b6"
+      }
+    },
+    {
+      "id": "retrieval-agent",
+      "repository": "giasonpooni/Notations-Retrieval-Agent",
+      "repository_id": 1373552271,
+      "import_revision": "4dc4da256873b03d82b3355af65638254ad15b53",
+      "upstream_default_revision": "e4049c5295d6329b6b0594563924c12b0b797b75",
+      "refs": [
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "a1450a7d389d8dbcd57cd57154e9f083b81e2af1",
+          "commit": "a1450a7d389d8dbcd57cd57154e9f083b81e2af1",
+          "retained_ref": "refs/tags/retired/retrieval-agent/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "c99086b9749b01edb6beb3fddbc4dba092a00820",
+          "commit": "c99086b9749b01edb6beb3fddbc4dba092a00820",
+          "retained_ref": "refs/tags/retired/retrieval-agent/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "82683809b46ad768d615ff49d33c6d3f4218cc1d",
+          "commit": "82683809b46ad768d615ff49d33c6d3f4218cc1d",
+          "retained_ref": "refs/tags/retired/retrieval-agent/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/public-research-profile-20260929",
+          "object": "5825f5b2602ff272b5b2c90323c9625e2d7c4aea",
+          "commit": "5825f5b2602ff272b5b2c90323c9625e2d7c4aea",
+          "retained_ref": "refs/tags/retired/retrieval-agent/heads/docs/public-research-profile-20260929"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "e4049c5295d6329b6b0594563924c12b0b797b75",
+          "commit": "e4049c5295d6329b6b0594563924c12b0b797b75",
+          "retained_ref": "refs/tags/retired/retrieval-agent/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "82683809b46ad768d615ff49d33c6d3f4218cc1d",
+          "commit": "82683809b46ad768d615ff49d33c6d3f4218cc1d",
+          "retained_ref": "refs/tags/retired/retrieval-agent/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "c99086b9749b01edb6beb3fddbc4dba092a00820",
+          "commit": "c99086b9749b01edb6beb3fddbc4dba092a00820",
+          "retained_ref": "refs/tags/retired/retrieval-agent/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "5825f5b2602ff272b5b2c90323c9625e2d7c4aea",
+          "commit": "5825f5b2602ff272b5b2c90323c9625e2d7c4aea",
+          "retained_ref": "refs/tags/retired/retrieval-agent/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/retrieval-agent.json",
+        "sha256": "25537e08fbd0513daf2b6ad4e4fc87ddceec60a088325903b249ecfa0cee6ead"
+      }
+    },
+    {
+      "id": "yield-weighted",
+      "repository": "giasonpooni/Notations-Yield-Weighted-Runtime",
+      "repository_id": 1376489536,
+      "import_revision": "8ae062b3578b02516a34fcd55d62d68187b57caa",
+      "upstream_default_revision": "5e2f74d9c722cc976979749628122ce50ef76ae6",
+      "refs": [
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "6f7a0bba4d27e3cafa7cc3f583aca873e3ab811f",
+          "commit": "6f7a0bba4d27e3cafa7cc3f583aca873e3ab811f",
+          "retained_ref": "refs/tags/retired/yield-weighted/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "ca95b16534fb08d2655929eda7b1f8a023b614d7",
+          "commit": "ca95b16534fb08d2655929eda7b1f8a023b614d7",
+          "retained_ref": "refs/tags/retired/yield-weighted/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "3d9e62956628b48b8ee7ccd2534dad880ff10e2d",
+          "commit": "3d9e62956628b48b8ee7ccd2534dad880ff10e2d",
+          "retained_ref": "refs/tags/retired/yield-weighted/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/public-research-profile-20260929",
+          "object": "191aceed23877011efc887f076b0f4f57b72cfcf",
+          "commit": "191aceed23877011efc887f076b0f4f57b72cfcf",
+          "retained_ref": "refs/tags/retired/yield-weighted/heads/docs/public-research-profile-20260929"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "5e2f74d9c722cc976979749628122ce50ef76ae6",
+          "commit": "5e2f74d9c722cc976979749628122ce50ef76ae6",
+          "retained_ref": "refs/tags/retired/yield-weighted/heads/main"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "3d9e62956628b48b8ee7ccd2534dad880ff10e2d",
+          "commit": "3d9e62956628b48b8ee7ccd2534dad880ff10e2d",
+          "retained_ref": "refs/tags/retired/yield-weighted/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "ca95b16534fb08d2655929eda7b1f8a023b614d7",
+          "commit": "ca95b16534fb08d2655929eda7b1f8a023b614d7",
+          "retained_ref": "refs/tags/retired/yield-weighted/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "191aceed23877011efc887f076b0f4f57b72cfcf",
+          "commit": "191aceed23877011efc887f076b0f4f57b72cfcf",
+          "retained_ref": "refs/tags/retired/yield-weighted/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/yield-weighted.json",
+        "sha256": "1a5a066e42b9dd327ab236d63433af11095af1a58295df6ed89def1fc80e47c3"
+      }
+    },
+    {
+      "id": "bim-estimator",
+      "repository": "giasonpooni/Notations-Estimator-for-BIM",
+      "repository_id": 1352920068,
+      "import_revision": "1411f8dcc2d14a33fab4f58ca85d1f5089894ff4",
+      "upstream_default_revision": "ce84c1f57787bd7a0250cb6117ee960ac86ff193",
+      "refs": [
+        {
+          "ref": "refs/heads/claude/cse-point-bind-schema",
+          "object": "afd24be37d310c9febf8b3a7a9377cc9d3c72609",
+          "commit": "afd24be37d310c9febf8b3a7a9377cc9d3c72609",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/claude/cse-point-bind-schema"
+        },
+        {
+          "ref": "refs/heads/claude/gat-gaussian-architectural-transformer-oxutea",
+          "object": "4212dc7707bb98842beb30a61303f119107d9ff3",
+          "commit": "4212dc7707bb98842beb30a61303f119107d9ff3",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/claude/gat-gaussian-architectural-transformer-oxutea"
+        },
+        {
+          "ref": "refs/heads/claude/laughing-planck-zyo6lm",
+          "object": "1818579dbc916fdd0e2217f63d9cad5fa9c8d440",
+          "commit": "1818579dbc916fdd0e2217f63d9cad5fa9c8d440",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/claude/laughing-planck-zyo6lm"
+        },
+        {
+          "ref": "refs/heads/claude/sweet-maxwell-8cmsnz",
+          "object": "96732393a18bd30e54b11ed10db114422ed0a593",
+          "commit": "96732393a18bd30e54b11ed10db114422ed0a593",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/claude/sweet-maxwell-8cmsnz"
+        },
+        {
+          "ref": "refs/heads/codex/aisc360-22-beam-oracle",
+          "object": "d219d0a3f1bc088e3f4c12283ab167e02495c02d",
+          "commit": "d219d0a3f1bc088e3f4c12283ab167e02495c02d",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/aisc360-22-beam-oracle"
+        },
+        {
+          "ref": "refs/heads/codex/beam-assurance-chain",
+          "object": "0b2b84c6d888e3d017f1fa8f73a9fde6de0bf642",
+          "commit": "0b2b84c6d888e3d017f1fa8f73a9fde6de0bf642",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/beam-assurance-chain"
+        },
+        {
+          "ref": "refs/heads/codex/beam-geometry-certificates",
+          "object": "9d223207fda67d359b5d8f2f5d0b13f98239c038",
+          "commit": "9d223207fda67d359b5d8f2f5d0b13f98239c038",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/beam-geometry-certificates"
+        },
+        {
+          "ref": "refs/heads/codex/beam-headless-blender",
+          "object": "09988969140d8a0646774c0e66c8e23c8850a4ba",
+          "commit": "09988969140d8a0646774c0e66c8e23c8850a4ba",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/beam-headless-blender"
+        },
+        {
+          "ref": "refs/heads/codex/beam-openusd-portability",
+          "object": "3e99784841a720de1d680af30aba4899f272a134",
+          "commit": "3e99784841a720de1d680af30aba4899f272a134",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/beam-openusd-portability"
+        },
+        {
+          "ref": "refs/heads/codex/coherent-engine-workbench",
+          "object": "d75dff9a81e26d380d3575e01787514dad7c852f",
+          "commit": "d75dff9a81e26d380d3575e01787514dad7c852f",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/coherent-engine-workbench"
+        },
+        {
+          "ref": "refs/heads/codex/continuous-clearance-cycle",
+          "object": "a67f078d7d5e18df477d2799aef770543535f436",
+          "commit": "a67f078d7d5e18df477d2799aef770543535f436",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/continuous-clearance-cycle"
+        },
+        {
+          "ref": "refs/heads/codex/coordinate-frame-contract",
+          "object": "28b2adde3713e2050cf74099d57bac00d05de5f7",
+          "commit": "28b2adde3713e2050cf74099d57bac00d05de5f7",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/coordinate-frame-contract"
+        },
+        {
+          "ref": "refs/heads/codex/decision-value-of-information",
+          "object": "a63186faac9a647460db47606b239c0233a3d38c",
+          "commit": "a63186faac9a647460db47606b239c0233a3d38c",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/decision-value-of-information"
+        },
+        {
+          "ref": "refs/heads/codex/factor-graph-rendezvous",
+          "object": "9b6dffbc22dd25ea886874f518fea85a2b4523ab",
+          "commit": "9b6dffbc22dd25ea886874f518fea85a2b4523ab",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/factor-graph-rendezvous"
+        },
+        {
+          "ref": "refs/heads/codex/fep-active-observation",
+          "object": "7cf4771d4ade0f7ee6c8f869aca9571c4d88db0a",
+          "commit": "7cf4771d4ade0f7ee6c8f869aca9571c4d88db0a",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/fep-active-observation"
+        },
+        {
+          "ref": "refs/heads/codex/frame-aware-opening-fit",
+          "object": "1764ef8a8e9ee9da955bd5027e701438f4883b0c",
+          "commit": "1764ef8a8e9ee9da955bd5027e701438f4883b0c",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/frame-aware-opening-fit"
+        },
+        {
+          "ref": "refs/heads/codex/ifc-unit-normalization",
+          "object": "6f51a4dc77e1725b15b5f774544d72a8be5f5695",
+          "commit": "6f51a4dc77e1725b15b5f774544d72a8be5f5695",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/ifc-unit-normalization"
+        },
+        {
+          "ref": "refs/heads/codex/incremental-propagation-scale",
+          "object": "b0401a3c08ce4396c14a7dab07f6b6e4b952c62d",
+          "commit": "b0401a3c08ce4396c14a7dab07f6b6e4b952c62d",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/incremental-propagation-scale"
+        },
+        {
+          "ref": "refs/heads/codex/no-available-evidence",
+          "object": "819744898cab450f7ed33049d8daef70136b964d",
+          "commit": "819744898cab450f7ed33049d8daef70136b964d",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/no-available-evidence"
+        },
+        {
+          "ref": "refs/heads/codex/polyglot-linear-map-v1",
+          "object": "6133cae66d7cad4b475960bed5bdd93906c688eb",
+          "commit": "6133cae66d7cad4b475960bed5bdd93906c688eb",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/polyglot-linear-map-v1"
+        },
+        {
+          "ref": "refs/heads/codex/portable-ifc-identity",
+          "object": "98f3247e2577bf1570ec50a16b1eb27de9cc35b8",
+          "commit": "98f3247e2577bf1570ec50a16b1eb27de9cc35b8",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/portable-ifc-identity"
+        },
+        {
+          "ref": "refs/heads/codex/proof-carrying-state",
+          "object": "1517e0fa902e0920bbdebb104d5f5e823a031bd2",
+          "commit": "1517e0fa902e0920bbdebb104d5f5e823a031bd2",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/proof-carrying-state"
+        },
+        {
+          "ref": "refs/heads/codex/real-ifc-validation",
+          "object": "7056a15d9f4ec0a804b6ea4dd470e5574e19d9dd",
+          "commit": "7056a15d9f4ec0a804b6ea4dd470e5574e19d9dd",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/real-ifc-validation"
+        },
+        {
+          "ref": "refs/heads/codex/real-structural-ifc-validation",
+          "object": "bec8b67d151dac936de1fbec692249c1399d6e79",
+          "commit": "bec8b67d151dac936de1fbec692249c1399d6e79",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/real-structural-ifc-validation"
+        },
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "22e4c62527bb47025ec03adcbfd2516d6e648fdc",
+          "commit": "22e4c62527bb47025ec03adcbfd2516d6e648fdc",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/codex/sp1-beam-guest",
+          "object": "606b0e06de3991a96827a4681ce7486c5980ee43",
+          "commit": "606b0e06de3991a96827a4681ce7486c5980ee43",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/sp1-beam-guest"
+        },
+        {
+          "ref": "refs/heads/codex/workbench-ci",
+          "object": "ce19143c0b86fabea6760b9aa52c09439a6f8861",
+          "commit": "ce19143c0b86fabea6760b9aa52c09439a6f8861",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/codex/workbench-ci"
+        },
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "2a5d6288e08c2869b144194806fafe39744850b3",
+          "commit": "2a5d6288e08c2869b144194806fafe39744850b3",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/net-controller-boundary-20260927",
+          "object": "6625f25c0ebee853480e1c1a51b7ddbd9b277ad2",
+          "commit": "6625f25c0ebee853480e1c1a51b7ddbd9b277ad2",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/docs/net-controller-boundary-20260927"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "a6a9a770822a27abb37116269fa6e1027eddf773",
+          "commit": "a6a9a770822a27abb37116269fa6e1027eddf773",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "8722c6f21e74efa9e125a0e2e22449af3f33f563",
+          "commit": "8722c6f21e74efa9e125a0e2e22449af3f33f563",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/feat/surface-inspection-interop",
+          "object": "de1c3abd10ebfa689578d21c498ca51f193cac6b",
+          "commit": "de1c3abd10ebfa689578d21c498ca51f193cac6b",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/feat/surface-inspection-interop"
+        },
+        {
+          "ref": "refs/heads/grok/review-corrections-v1",
+          "object": "574b16fffa6bb97777c92b8c594afbc01a37a7a0",
+          "commit": "574b16fffa6bb97777c92b8c594afbc01a37a7a0",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/grok/review-corrections-v1"
+        },
+        {
+          "ref": "refs/heads/grok/scoped-worlds-v1",
+          "object": "99c4c47adfb179ace8466cecf4a93a6b03779f27",
+          "commit": "99c4c47adfb179ace8466cecf4a93a6b03779f27",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/grok/scoped-worlds-v1"
+        },
+        {
+          "ref": "refs/heads/grok/six-slices-v1",
+          "object": "b31dfcf93a2235deea3a4c5d35a4ef2288510cdd",
+          "commit": "b31dfcf93a2235deea3a4c5d35a4ef2288510cdd",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/grok/six-slices-v1"
+        },
+        {
+          "ref": "refs/heads/grok/sparse-information-v1",
+          "object": "84c352481dd1d121a56da8a06070e9097281be44",
+          "commit": "84c352481dd1d121a56da8a06070e9097281be44",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/grok/sparse-information-v1"
+        },
+        {
+          "ref": "refs/heads/grok/v02-clinic-headless-diff",
+          "object": "c44b8e3ab9f93653ac1352a3f7fe1f7695b84793",
+          "commit": "c44b8e3ab9f93653ac1352a3f7fe1f7695b84793",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/grok/v02-clinic-headless-diff"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "ce84c1f57787bd7a0250cb6117ee960ac86ff193",
+          "commit": "ce84c1f57787bd7a0250cb6117ee960ac86ff193",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/main"
+        },
+        {
+          "ref": "refs/heads/phase-1-foundation",
+          "object": "fb4a3cd974da4ba547430f42291f5baf8fd065e9",
+          "commit": "fb4a3cd974da4ba547430f42291f5baf8fd065e9",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/phase-1-foundation"
+        },
+        {
+          "ref": "refs/heads/satellite/mcl-se2-v1",
+          "object": "22a2023201fedff627fa1edba1450a7a93813395",
+          "commit": "22a2023201fedff627fa1edba1450a7a93813395",
+          "retained_ref": "refs/tags/retired/bim-estimator/heads/satellite/mcl-se2-v1"
+        },
+        {
+          "ref": "refs/pull/46/head",
+          "object": "8722c6f21e74efa9e125a0e2e22449af3f33f563",
+          "commit": "8722c6f21e74efa9e125a0e2e22449af3f33f563",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/46/head"
+        },
+        {
+          "ref": "refs/pull/45/head",
+          "object": "a6a9a770822a27abb37116269fa6e1027eddf773",
+          "commit": "a6a9a770822a27abb37116269fa6e1027eddf773",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/45/head"
+        },
+        {
+          "ref": "refs/pull/44/head",
+          "object": "2a5d6288e08c2869b144194806fafe39744850b3",
+          "commit": "2a5d6288e08c2869b144194806fafe39744850b3",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/44/head"
+        },
+        {
+          "ref": "refs/pull/43/head",
+          "object": "6625f25c0ebee853480e1c1a51b7ddbd9b277ad2",
+          "commit": "6625f25c0ebee853480e1c1a51b7ddbd9b277ad2",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/43/head"
+        },
+        {
+          "ref": "refs/pull/42/head",
+          "object": "de1c3abd10ebfa689578d21c498ca51f193cac6b",
+          "commit": "de1c3abd10ebfa689578d21c498ca51f193cac6b",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/42/head"
+        },
+        {
+          "ref": "refs/pull/41/head",
+          "object": "6133cae66d7cad4b475960bed5bdd93906c688eb",
+          "commit": "6133cae66d7cad4b475960bed5bdd93906c688eb",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/41/head"
+        },
+        {
+          "ref": "refs/pull/40/head",
+          "object": "afd24be37d310c9febf8b3a7a9377cc9d3c72609",
+          "commit": "afd24be37d310c9febf8b3a7a9377cc9d3c72609",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/40/head"
+        },
+        {
+          "ref": "refs/pull/39/head",
+          "object": "0990c051a07af130459f8869c3894b2e8fb724de",
+          "commit": "0990c051a07af130459f8869c3894b2e8fb724de",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/39/head"
+        },
+        {
+          "ref": "refs/pull/38/head",
+          "object": "22a2023201fedff627fa1edba1450a7a93813395",
+          "commit": "22a2023201fedff627fa1edba1450a7a93813395",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/38/head"
+        },
+        {
+          "ref": "refs/pull/37/head",
+          "object": "99c4c47adfb179ace8466cecf4a93a6b03779f27",
+          "commit": "99c4c47adfb179ace8466cecf4a93a6b03779f27",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/37/head"
+        },
+        {
+          "ref": "refs/pull/36/head",
+          "object": "84c352481dd1d121a56da8a06070e9097281be44",
+          "commit": "84c352481dd1d121a56da8a06070e9097281be44",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/36/head"
+        },
+        {
+          "ref": "refs/pull/35/head",
+          "object": "b31dfcf93a2235deea3a4c5d35a4ef2288510cdd",
+          "commit": "b31dfcf93a2235deea3a4c5d35a4ef2288510cdd",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/35/head"
+        },
+        {
+          "ref": "refs/pull/34/head",
+          "object": "c44b8e3ab9f93653ac1352a3f7fe1f7695b84793",
+          "commit": "c44b8e3ab9f93653ac1352a3f7fe1f7695b84793",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/34/head"
+        },
+        {
+          "ref": "refs/pull/33/head",
+          "object": "574b16fffa6bb97777c92b8c594afbc01a37a7a0",
+          "commit": "574b16fffa6bb97777c92b8c594afbc01a37a7a0",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/33/head"
+        },
+        {
+          "ref": "refs/pull/32/head",
+          "object": "a67f078d7d5e18df477d2799aef770543535f436",
+          "commit": "a67f078d7d5e18df477d2799aef770543535f436",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/32/head"
+        },
+        {
+          "ref": "refs/pull/31/head",
+          "object": "a63186faac9a647460db47606b239c0233a3d38c",
+          "commit": "a63186faac9a647460db47606b239c0233a3d38c",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/31/head"
+        },
+        {
+          "ref": "refs/pull/30/head",
+          "object": "9b6dffbc22dd25ea886874f518fea85a2b4523ab",
+          "commit": "9b6dffbc22dd25ea886874f518fea85a2b4523ab",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/30/head"
+        },
+        {
+          "ref": "refs/pull/29/head",
+          "object": "1764ef8a8e9ee9da955bd5027e701438f4883b0c",
+          "commit": "1764ef8a8e9ee9da955bd5027e701438f4883b0c",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/29/head"
+        },
+        {
+          "ref": "refs/pull/28/head",
+          "object": "d75dff9a81e26d380d3575e01787514dad7c852f",
+          "commit": "d75dff9a81e26d380d3575e01787514dad7c852f",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/28/head"
+        },
+        {
+          "ref": "refs/pull/27/head",
+          "object": "28b2adde3713e2050cf74099d57bac00d05de5f7",
+          "commit": "28b2adde3713e2050cf74099d57bac00d05de5f7",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/27/head"
+        },
+        {
+          "ref": "refs/pull/26/head",
+          "object": "4212dc7707bb98842beb30a61303f119107d9ff3",
+          "commit": "4212dc7707bb98842beb30a61303f119107d9ff3",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/26/head"
+        },
+        {
+          "ref": "refs/pull/25/head",
+          "object": "98f3247e2577bf1570ec50a16b1eb27de9cc35b8",
+          "commit": "98f3247e2577bf1570ec50a16b1eb27de9cc35b8",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/25/head"
+        },
+        {
+          "ref": "refs/pull/24/head",
+          "object": "803d7efcdda74d1e0ac41a4894bac6d108c25262",
+          "commit": "803d7efcdda74d1e0ac41a4894bac6d108c25262",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/24/head"
+        },
+        {
+          "ref": "refs/pull/23/head",
+          "object": "819744898cab450f7ed33049d8daef70136b964d",
+          "commit": "819744898cab450f7ed33049d8daef70136b964d",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/23/head"
+        },
+        {
+          "ref": "refs/pull/22/head",
+          "object": "ce19143c0b86fabea6760b9aa52c09439a6f8861",
+          "commit": "ce19143c0b86fabea6760b9aa52c09439a6f8861",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/22/head"
+        },
+        {
+          "ref": "refs/pull/21/head",
+          "object": "a3b2ead6f59d10bce8ebe5b9e3e11cf9c9c4debb",
+          "commit": "a3b2ead6f59d10bce8ebe5b9e3e11cf9c9c4debb",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/21/head"
+        },
+        {
+          "ref": "refs/pull/20/head",
+          "object": "f73268555134463f14992bf1721ace51a0640997",
+          "commit": "f73268555134463f14992bf1721ace51a0640997",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/20/head"
+        },
+        {
+          "ref": "refs/pull/19/head",
+          "object": "ae1502acfd355e5678445240eb0b96b2e5ffbfde",
+          "commit": "ae1502acfd355e5678445240eb0b96b2e5ffbfde",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/19/head"
+        },
+        {
+          "ref": "refs/pull/18/head",
+          "object": "6f1e2743916616193c5c7462ced5b973240ea2de",
+          "commit": "6f1e2743916616193c5c7462ced5b973240ea2de",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/18/head"
+        },
+        {
+          "ref": "refs/pull/17/head",
+          "object": "135402f780e88a8e668d775c582005da1a4d05c2",
+          "commit": "135402f780e88a8e668d775c582005da1a4d05c2",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/17/head"
+        },
+        {
+          "ref": "refs/pull/16/head",
+          "object": "3bcb072a39586f08a12fb6cd259b41ebf931c377",
+          "commit": "3bcb072a39586f08a12fb6cd259b41ebf931c377",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/16/head"
+        },
+        {
+          "ref": "refs/pull/15/head",
+          "object": "7280605b8ed239b03b5075404092b986bd1262a6",
+          "commit": "7280605b8ed239b03b5075404092b986bd1262a6",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/15/head"
+        },
+        {
+          "ref": "refs/pull/14/head",
+          "object": "606b0e06de3991a96827a4681ce7486c5980ee43",
+          "commit": "606b0e06de3991a96827a4681ce7486c5980ee43",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/14/head"
+        },
+        {
+          "ref": "refs/pull/13/head",
+          "object": "b0401a3c08ce4396c14a7dab07f6b6e4b952c62d",
+          "commit": "b0401a3c08ce4396c14a7dab07f6b6e4b952c62d",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/13/head"
+        },
+        {
+          "ref": "refs/pull/12/head",
+          "object": "3e99784841a720de1d680af30aba4899f272a134",
+          "commit": "3e99784841a720de1d680af30aba4899f272a134",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/12/head"
+        },
+        {
+          "ref": "refs/pull/11/head",
+          "object": "09988969140d8a0646774c0e66c8e23c8850a4ba",
+          "commit": "09988969140d8a0646774c0e66c8e23c8850a4ba",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/11/head"
+        },
+        {
+          "ref": "refs/pull/10/head",
+          "object": "d219d0a3f1bc088e3f4c12283ab167e02495c02d",
+          "commit": "d219d0a3f1bc088e3f4c12283ab167e02495c02d",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/10/head"
+        },
+        {
+          "ref": "refs/pull/9/head",
+          "object": "9d223207fda67d359b5d8f2f5d0b13f98239c038",
+          "commit": "9d223207fda67d359b5d8f2f5d0b13f98239c038",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/9/head"
+        },
+        {
+          "ref": "refs/pull/8/head",
+          "object": "bec8b67d151dac936de1fbec692249c1399d6e79",
+          "commit": "bec8b67d151dac936de1fbec692249c1399d6e79",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/8/head"
+        },
+        {
+          "ref": "refs/pull/7/head",
+          "object": "8516d70ff6ef62fe2cc90073547684b4b7e36658",
+          "commit": "8516d70ff6ef62fe2cc90073547684b4b7e36658",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/7/head"
+        },
+        {
+          "ref": "refs/pull/6/head",
+          "object": "6f51a4dc77e1725b15b5f774544d72a8be5f5695",
+          "commit": "6f51a4dc77e1725b15b5f774544d72a8be5f5695",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/6/head"
+        },
+        {
+          "ref": "refs/pull/5/head",
+          "object": "7056a15d9f4ec0a804b6ea4dd470e5574e19d9dd",
+          "commit": "7056a15d9f4ec0a804b6ea4dd470e5574e19d9dd",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/5/head"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "4d305ed40f1977f9ae7a748b52811f3ecc1fa294",
+          "commit": "4d305ed40f1977f9ae7a748b52811f3ecc1fa294",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "cb90cbddf3e4ed67537d17275f6cfaf4cd598b6e",
+          "commit": "cb90cbddf3e4ed67537d17275f6cfaf4cd598b6e",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "ecb772c6cfc7dd9cfe8aa27e12af2579f9db6fdb",
+          "commit": "ecb772c6cfc7dd9cfe8aa27e12af2579f9db6fdb",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "82f66c052457bb8993491fab5f0e6c75a3a335f6",
+          "commit": "82f66c052457bb8993491fab5f0e6c75a3a335f6",
+          "retained_ref": "refs/tags/retired/bim-estimator/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/bim-estimator.json",
+        "sha256": "78faa50f36e0f6489a358ac0d5ecce3f3eab3e1415bcecc4369b06faf01be1b1"
+      }
+    },
+    {
+      "id": "real-time-globe",
+      "repository": "giasonpooni/Notations-Real-Time-Globe",
+      "repository_id": 1352801283,
+      "import_revision": "6f1b339dfa103bc45b40f34170043bc23a010c57",
+      "upstream_default_revision": "ab637329c8052e2879ddf563f4d09422e8aa5bfb",
+      "refs": [
+        {
+          "ref": "refs/heads/claude/payload-earth-digital-twin-bp0m1b",
+          "object": "819f19a842f634e0c6f6626fc27bc4e374726750",
+          "commit": "819f19a842f634e0c6f6626fc27bc4e374726750",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/claude/payload-earth-digital-twin-bp0m1b"
+        },
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "3482e1e307f2c6cb9a60475c0b2bee480e243ef0",
+          "commit": "3482e1e307f2c6cb9a60475c0b2bee480e243ef0",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/notation-cartesian-parent-20260929",
+          "object": "722932606f783e40130995439c6fb2e77bf27d90",
+          "commit": "722932606f783e40130995439c6fb2e77bf27d90",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/docs/notation-cartesian-parent-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "091ee24a01b586785ae27ded5373019404a5893d",
+          "commit": "091ee24a01b586785ae27ded5373019404a5893d",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "28b055bcdff283c5ab7e6f79d5e9b720c26ec4a4",
+          "commit": "28b055bcdff283c5ab7e6f79d5e9b720c26ec4a4",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/feat/industrial-source-review-v1-20260929",
+          "object": "3dc09db6162ab0c40c056707af70198ef98b90be",
+          "commit": "3dc09db6162ab0c40c056707af70198ef98b90be",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/feat/industrial-source-review-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/recheckable-industrial-review-v1-20260929",
+          "object": "71fea648424224996190138ba649ce59e26c2af3",
+          "commit": "71fea648424224996190138ba649ce59e26c2af3",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/feat/recheckable-industrial-review-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/scene-workbench-v1-20260928",
+          "object": "7335f4edb9841bc503dae3e589a34c25fc26a0be",
+          "commit": "7335f4edb9841bc503dae3e589a34c25fc26a0be",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/feat/scene-workbench-v1-20260928"
+        },
+        {
+          "ref": "refs/heads/fix/authenticated-industrial-review-v1-20260929",
+          "object": "f6e1c14b2da4c6d7bd1a4d5354d40d2e052645c6",
+          "commit": "f6e1c14b2da4c6d7bd1a4d5354d40d2e052645c6",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/fix/authenticated-industrial-review-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/fix/responsive-read-only-exhibit-20260928",
+          "object": "67861ce05f7ea46db89af9e0493f5d6dc756c8ed",
+          "commit": "67861ce05f7ea46db89af9e0493f5d6dc756c8ed",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/fix/responsive-read-only-exhibit-20260928"
+        },
+        {
+          "ref": "refs/heads/integration/ciw-geographic-view",
+          "object": "06c47bd851d8ea8b363a6bbe60a96c7448cbe12e",
+          "commit": "06c47bd851d8ea8b363a6bbe60a96c7448cbe12e",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/integration/ciw-geographic-view"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "ab637329c8052e2879ddf563f4d09422e8aa5bfb",
+          "commit": "ab637329c8052e2879ddf563f4d09422e8aa5bfb",
+          "retained_ref": "refs/tags/retired/real-time-globe/heads/main"
+        },
+        {
+          "ref": "refs/pull/10/head",
+          "object": "28b055bcdff283c5ab7e6f79d5e9b720c26ec4a4",
+          "commit": "28b055bcdff283c5ab7e6f79d5e9b720c26ec4a4",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/10/head"
+        },
+        {
+          "ref": "refs/pull/9/head",
+          "object": "091ee24a01b586785ae27ded5373019404a5893d",
+          "commit": "091ee24a01b586785ae27ded5373019404a5893d",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/9/head"
+        },
+        {
+          "ref": "refs/pull/8/head",
+          "object": "71fea648424224996190138ba649ce59e26c2af3",
+          "commit": "71fea648424224996190138ba649ce59e26c2af3",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/8/head"
+        },
+        {
+          "ref": "refs/pull/7/head",
+          "object": "f6e1c14b2da4c6d7bd1a4d5354d40d2e052645c6",
+          "commit": "f6e1c14b2da4c6d7bd1a4d5354d40d2e052645c6",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/7/head"
+        },
+        {
+          "ref": "refs/pull/6/head",
+          "object": "722932606f783e40130995439c6fb2e77bf27d90",
+          "commit": "722932606f783e40130995439c6fb2e77bf27d90",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/6/head"
+        },
+        {
+          "ref": "refs/pull/5/head",
+          "object": "3dc09db6162ab0c40c056707af70198ef98b90be",
+          "commit": "3dc09db6162ab0c40c056707af70198ef98b90be",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/5/head"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "7335f4edb9841bc503dae3e589a34c25fc26a0be",
+          "commit": "7335f4edb9841bc503dae3e589a34c25fc26a0be",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "67861ce05f7ea46db89af9e0493f5d6dc756c8ed",
+          "commit": "67861ce05f7ea46db89af9e0493f5d6dc756c8ed",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "06c47bd851d8ea8b363a6bbe60a96c7448cbe12e",
+          "commit": "06c47bd851d8ea8b363a6bbe60a96c7448cbe12e",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "74b3af71dde10323733887a96b7a8839584fb910",
+          "commit": "74b3af71dde10323733887a96b7a8839584fb910",
+          "retained_ref": "refs/tags/retired/real-time-globe/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/real-time-globe.json",
+        "sha256": "b1cd26b8244dc79886dede779564e2331d59b3faf793ceebe4ae426c6b82444f"
+      }
+    },
+    {
+      "id": "frame-mapper",
+      "repository": "giasonpooni/Notations-FrameMapper-RunTime",
+      "repository_id": 1347707016,
+      "import_revision": "b788489373cbbeebf69667ddf06c048855e22836",
+      "upstream_default_revision": "203fd3b9d9aedfd749ead789f4b3871bc861a968",
+      "refs": [
+        {
+          "ref": "refs/heads/ci-verify/guard-breach",
+          "object": "ba7a483d1353d4a2a90a6618012763bd652814ba",
+          "commit": "ba7a483d1353d4a2a90a6618012763bd652814ba",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/ci-verify/guard-breach"
+        },
+        {
+          "ref": "refs/heads/ci-verify/industrial-feed-terrain-v1",
+          "object": "98bd33bcca22efabe24de8be42642dc561fcfd17",
+          "commit": "98bd33bcca22efabe24de8be42642dc561fcfd17",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/ci-verify/industrial-feed-terrain-v1"
+        },
+        {
+          "ref": "refs/heads/ci-verify/industrial-observation-quality-v1",
+          "object": "eae810de50768d4f4e46583f3d9829554a12c566",
+          "commit": "eae810de50768d4f4e46583f3d9829554a12c566",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/ci-verify/industrial-observation-quality-v1"
+        },
+        {
+          "ref": "refs/heads/ci-verify/industrial-pipe-apply",
+          "object": "4343275b1db8b9e725e815a4fb9f8b05536cfb2b",
+          "commit": "4343275b1db8b9e725e815a4fb9f8b05536cfb2b",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/ci-verify/industrial-pipe-apply"
+        },
+        {
+          "ref": "refs/heads/ci-verify/industrial-pipe-workspace",
+          "object": "6850463b4fafbae6b5914efbbee7cbb3c931ac34",
+          "commit": "6850463b4fafbae6b5914efbbee7cbb3c931ac34",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/ci-verify/industrial-pipe-workspace"
+        },
+        {
+          "ref": "refs/heads/ci-verify/rs-scene-inspection-v1",
+          "object": "8bea4f8b15a7d1acf8bf16d00acc8013454a9160",
+          "commit": "8bea4f8b15a7d1acf8bf16d00acc8013454a9160",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/ci-verify/rs-scene-inspection-v1"
+        },
+        {
+          "ref": "refs/heads/claude/osiris-physical-economy-7o9g2w",
+          "object": "203fd3b9d9aedfd749ead789f4b3871bc861a968",
+          "commit": "203fd3b9d9aedfd749ead789f4b3871bc861a968",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/claude/osiris-physical-economy-7o9g2w"
+        },
+        {
+          "ref": "refs/heads/claude/payload-scm-dev-f8bk9k",
+          "object": "c4dc08291f796fd1b9703b5e190dd0d8cf3c266d",
+          "commit": "c4dc08291f796fd1b9703b5e190dd0d8cf3c266d",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/claude/payload-scm-dev-f8bk9k"
+        },
+        {
+          "ref": "refs/heads/codex/fsrt-retained-view-v1",
+          "object": "6255cbd916cf1c081ea2f680b6ef60122f782bdd",
+          "commit": "6255cbd916cf1c081ea2f680b6ef60122f782bdd",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/codex/fsrt-retained-view-v1"
+        },
+        {
+          "ref": "refs/heads/codex/ocr-evidence-intake",
+          "object": "1dca55fde6c277f741fd68286d3aa1b0c83c585d",
+          "commit": "1dca55fde6c277f741fd68286d3aa1b0c83c585d",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/codex/ocr-evidence-intake"
+        },
+        {
+          "ref": "refs/heads/codex/operations-action-cockpit",
+          "object": "3ed2c3615a05fd91cd27e038e6c6268406eb7111",
+          "commit": "3ed2c3615a05fd91cd27e038e6c6268406eb7111",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/codex/operations-action-cockpit"
+        },
+        {
+          "ref": "refs/heads/codex/payloados-commercial-positions",
+          "object": "47e24f39fd69f5dc48a53bf3ab0d4abee918ee6b",
+          "commit": "47e24f39fd69f5dc48a53bf3ab0d4abee918ee6b",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/codex/payloados-commercial-positions"
+        },
+        {
+          "ref": "refs/heads/codex/payloados-procurement-core",
+          "object": "13891947613b6d9a2bd424b733d808cc759f0232",
+          "commit": "13891947613b6d9a2bd424b733d808cc759f0232",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/codex/payloados-procurement-core"
+        },
+        {
+          "ref": "refs/heads/codex/payloados-project-cargo-execution",
+          "object": "dc3d219eebbf147745fcb68d567bf760f2da7ec4",
+          "commit": "dc3d219eebbf147745fcb68d567bf760f2da7ec4",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/codex/payloados-project-cargo-execution"
+        },
+        {
+          "ref": "refs/heads/codex/polyglot-linear-map-v1",
+          "object": "85b126e5f18b89e5aca83666c2f429896cac06dd",
+          "commit": "85b126e5f18b89e5aca83666c2f429896cac06dd",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/codex/polyglot-linear-map-v1"
+        },
+        {
+          "ref": "refs/heads/docs/net-controller-boundary-20260927",
+          "object": "fb81af9aa1aab8bdeaae45982ee788c0c692aeeb",
+          "commit": "fb81af9aa1aab8bdeaae45982ee788c0c692aeeb",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/docs/net-controller-boundary-20260927"
+        },
+        {
+          "ref": "refs/heads/docs/notation-cartesian-parent-20260929",
+          "object": "e921453a2b0aa8b960a9a053a47a666adba671cf",
+          "commit": "e921453a2b0aa8b960a9a053a47a666adba671cf",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/docs/notation-cartesian-parent-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "71b9c8935d8c66cabde37da171c0dcaa4a7c51f9",
+          "commit": "71b9c8935d8c66cabde37da171c0dcaa4a7c51f9",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "c55ae2f90bc6e72a1ec7af31b1cc91322c433bf7",
+          "commit": "c55ae2f90bc6e72a1ec7af31b1cc91322c433bf7",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/feat/ciw-local-frame-provider-v1-20260928",
+          "object": "acc6a4c43dd1d28e3fc6890dadf5cd2b4ae40125",
+          "commit": "acc6a4c43dd1d28e3fc6890dadf5cd2b4ae40125",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/ciw-local-frame-provider-v1-20260928"
+        },
+        {
+          "ref": "refs/heads/feat/industrial-pipe-seat-v1",
+          "object": "06454819e0f54fc64f9e72fb99960dfde1b239dd",
+          "commit": "06454819e0f54fc64f9e72fb99960dfde1b239dd",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/industrial-pipe-seat-v1"
+        },
+        {
+          "ref": "refs/heads/feat/industrial-products-commercial-v1",
+          "object": "23ac64b6af3c05048b5b1800c40be9cfbbc69949",
+          "commit": "23ac64b6af3c05048b5b1800c40be9cfbbc69949",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/industrial-products-commercial-v1"
+        },
+        {
+          "ref": "refs/heads/feat/notation-static-homepage-20260928",
+          "object": "5d2a270a88359ff43bbef9cda5b892eaa6934339",
+          "commit": "5d2a270a88359ff43bbef9cda5b892eaa6934339",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/notation-static-homepage-20260928"
+        },
+        {
+          "ref": "refs/heads/feat/rs-scene-provider-v1-20260928",
+          "object": "056dd42cce3131d772273aa41ad232e79ac3e729",
+          "commit": "056dd42cce3131d772273aa41ad232e79ac3e729",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/rs-scene-provider-v1-20260928"
+        },
+        {
+          "ref": "refs/heads/feat/state-space-simulation-20260928",
+          "object": "823808bd59deec9522c6993b9c42d16c9caad98b",
+          "commit": "823808bd59deec9522c6993b9c42d16c9caad98b",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/state-space-simulation-20260928"
+        },
+        {
+          "ref": "refs/heads/feat/synthetic-fsrt-gsc-v1",
+          "object": "37350cb0835653991e0722ca68a1a6d7afac4225",
+          "commit": "37350cb0835653991e0722ca68a1a6d7afac4225",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/synthetic-fsrt-gsc-v1"
+        },
+        {
+          "ref": "refs/heads/feat/synthetic-tank-observer-20260929",
+          "object": "55dfb992a11f89fa26b5e9a825117256cd212250",
+          "commit": "55dfb992a11f89fa26b5e9a825117256cd212250",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/synthetic-tank-observer-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/tank-bounded-uncertainty-20260929",
+          "object": "bd2e9fcca51be1a45691cc983633b4a01e423970",
+          "commit": "bd2e9fcca51be1a45691cc983633b4a01e423970",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/tank-bounded-uncertainty-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/tank-independent-reference-20260929",
+          "object": "4bbf5ef846e34a9d9e7e5e189f8ed44fac527d49",
+          "commit": "4bbf5ef846e34a9d9e7e5e189f8ed44fac527d49",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/tank-independent-reference-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/tank-loss-state-heldout-20260929",
+          "object": "d7cb35762568d1766d29989cfd3f15c90db09b80",
+          "commit": "d7cb35762568d1766d29989cfd3f15c90db09b80",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/tank-loss-state-heldout-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/tank-switching-bias-20260929",
+          "object": "c6b5da4c13a86bb63444d3d55ed66c02fcc367a3",
+          "commit": "c6b5da4c13a86bb63444d3d55ed66c02fcc367a3",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/feat/tank-switching-bias-20260929"
+        },
+        {
+          "ref": "refs/heads/gsc/compiler-ir-foundation",
+          "object": "5e7fa87364e1b129b6c5d0678e913a7b3f329af8",
+          "commit": "5e7fa87364e1b129b6c5d0678e913a7b3f329af8",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/gsc/compiler-ir-foundation"
+        },
+        {
+          "ref": "refs/heads/integration/notation-visual-inspection",
+          "object": "f3feeecfebaaeec1401681a8a96304e0d5e56385",
+          "commit": "f3feeecfebaaeec1401681a8a96304e0d5e56385",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/integration/notation-visual-inspection"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "2984a6328c50a97e95e35e4745eb4ecb1d4f3036",
+          "commit": "2984a6328c50a97e95e35e4745eb4ecb1d4f3036",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/main"
+        },
+        {
+          "ref": "refs/heads/notationsystems-patch-1",
+          "object": "223fbd3133e771dcae1c5d9451ed444049191fbc",
+          "commit": "223fbd3133e771dcae1c5d9451ed444049191fbc",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/notationsystems-patch-1"
+        },
+        {
+          "ref": "refs/heads/release/v0.1.0",
+          "object": "d1fdaf966fde10c458bf5739524b2ec80021b7e0",
+          "commit": "d1fdaf966fde10c458bf5739524b2ec80021b7e0",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/release/v0.1.0"
+        },
+        {
+          "ref": "refs/heads/ux/payload-terminal-v0",
+          "object": "b2c959c6d7eaed5f25644f47f42c9b21b5ed49ad",
+          "commit": "b2c959c6d7eaed5f25644f47f42c9b21b5ed49ad",
+          "retained_ref": "refs/tags/retired/frame-mapper/heads/ux/payload-terminal-v0"
+        },
+        {
+          "ref": "refs/pull/26/head",
+          "object": "c55ae2f90bc6e72a1ec7af31b1cc91322c433bf7",
+          "commit": "c55ae2f90bc6e72a1ec7af31b1cc91322c433bf7",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/26/head"
+        },
+        {
+          "ref": "refs/pull/25/head",
+          "object": "71b9c8935d8c66cabde37da171c0dcaa4a7c51f9",
+          "commit": "71b9c8935d8c66cabde37da171c0dcaa4a7c51f9",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/25/head"
+        },
+        {
+          "ref": "refs/pull/24/head",
+          "object": "bd2e9fcca51be1a45691cc983633b4a01e423970",
+          "commit": "bd2e9fcca51be1a45691cc983633b4a01e423970",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/24/head"
+        },
+        {
+          "ref": "refs/pull/23/head",
+          "object": "e921453a2b0aa8b960a9a053a47a666adba671cf",
+          "commit": "e921453a2b0aa8b960a9a053a47a666adba671cf",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/23/head"
+        },
+        {
+          "ref": "refs/pull/22/head",
+          "object": "4bbf5ef846e34a9d9e7e5e189f8ed44fac527d49",
+          "commit": "4bbf5ef846e34a9d9e7e5e189f8ed44fac527d49",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/22/head"
+        },
+        {
+          "ref": "refs/pull/21/head",
+          "object": "98bd33bcca22efabe24de8be42642dc561fcfd17",
+          "commit": "98bd33bcca22efabe24de8be42642dc561fcfd17",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/21/head"
+        },
+        {
+          "ref": "refs/pull/20/head",
+          "object": "c6b5da4c13a86bb63444d3d55ed66c02fcc367a3",
+          "commit": "c6b5da4c13a86bb63444d3d55ed66c02fcc367a3",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/20/head"
+        },
+        {
+          "ref": "refs/pull/19/head",
+          "object": "d7cb35762568d1766d29989cfd3f15c90db09b80",
+          "commit": "d7cb35762568d1766d29989cfd3f15c90db09b80",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/19/head"
+        },
+        {
+          "ref": "refs/pull/18/head",
+          "object": "55dfb992a11f89fa26b5e9a825117256cd212250",
+          "commit": "55dfb992a11f89fa26b5e9a825117256cd212250",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/18/head"
+        },
+        {
+          "ref": "refs/pull/17/head",
+          "object": "056dd42cce3131d772273aa41ad232e79ac3e729",
+          "commit": "056dd42cce3131d772273aa41ad232e79ac3e729",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/17/head"
+        },
+        {
+          "ref": "refs/pull/16/head",
+          "object": "8bea4f8b15a7d1acf8bf16d00acc8013454a9160",
+          "commit": "8bea4f8b15a7d1acf8bf16d00acc8013454a9160",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/16/head"
+        },
+        {
+          "ref": "refs/pull/15/head",
+          "object": "823808bd59deec9522c6993b9c42d16c9caad98b",
+          "commit": "823808bd59deec9522c6993b9c42d16c9caad98b",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/15/head"
+        },
+        {
+          "ref": "refs/pull/14/head",
+          "object": "eae810de50768d4f4e46583f3d9829554a12c566",
+          "commit": "eae810de50768d4f4e46583f3d9829554a12c566",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/14/head"
+        },
+        {
+          "ref": "refs/pull/13/head",
+          "object": "23ac64b6af3c05048b5b1800c40be9cfbbc69949",
+          "commit": "23ac64b6af3c05048b5b1800c40be9cfbbc69949",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/13/head"
+        },
+        {
+          "ref": "refs/pull/12/head",
+          "object": "5d2a270a88359ff43bbef9cda5b892eaa6934339",
+          "commit": "5d2a270a88359ff43bbef9cda5b892eaa6934339",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/12/head"
+        },
+        {
+          "ref": "refs/pull/11/head",
+          "object": "acc6a4c43dd1d28e3fc6890dadf5cd2b4ae40125",
+          "commit": "acc6a4c43dd1d28e3fc6890dadf5cd2b4ae40125",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/11/head"
+        },
+        {
+          "ref": "refs/pull/10/head",
+          "object": "37350cb0835653991e0722ca68a1a6d7afac4225",
+          "commit": "37350cb0835653991e0722ca68a1a6d7afac4225",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/10/head"
+        },
+        {
+          "ref": "refs/pull/9/head",
+          "object": "6255cbd916cf1c081ea2f680b6ef60122f782bdd",
+          "commit": "6255cbd916cf1c081ea2f680b6ef60122f782bdd",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/9/head"
+        },
+        {
+          "ref": "refs/pull/8/head",
+          "object": "fb81af9aa1aab8bdeaae45982ee788c0c692aeeb",
+          "commit": "fb81af9aa1aab8bdeaae45982ee788c0c692aeeb",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/8/head"
+        },
+        {
+          "ref": "refs/pull/7/head",
+          "object": "85b126e5f18b89e5aca83666c2f429896cac06dd",
+          "commit": "85b126e5f18b89e5aca83666c2f429896cac06dd",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/7/head"
+        },
+        {
+          "ref": "refs/pull/6/head",
+          "object": "5e7fa87364e1b129b6c5d0678e913a7b3f329af8",
+          "commit": "5e7fa87364e1b129b6c5d0678e913a7b3f329af8",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/6/head"
+        },
+        {
+          "ref": "refs/pull/5/head",
+          "object": "f3feeecfebaaeec1401681a8a96304e0d5e56385",
+          "commit": "f3feeecfebaaeec1401681a8a96304e0d5e56385",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/5/head"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "1dca55fde6c277f741fd68286d3aa1b0c83c585d",
+          "commit": "1dca55fde6c277f741fd68286d3aa1b0c83c585d",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "b2c959c6d7eaed5f25644f47f42c9b21b5ed49ad",
+          "commit": "b2c959c6d7eaed5f25644f47f42c9b21b5ed49ad",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "223fbd3133e771dcae1c5d9451ed444049191fbc",
+          "commit": "223fbd3133e771dcae1c5d9451ed444049191fbc",
+          "retained_ref": "refs/tags/retired/frame-mapper/pull/2/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/frame-mapper.json",
+        "sha256": "b79df2b7dea0df92330ef491e154ebdf7e62299cad70731c6dc72401ad9aab34"
+      }
+    },
+    {
+      "id": "compute-runtime",
+      "repository": "giasonpooni/Notations-Compute-Runtime",
+      "repository_id": 1340058242,
+      "import_revision": "da2dc23857dd8665473d3b8d32e6b7452866e749",
+      "upstream_default_revision": "b40abcc2160de5c91d98dd6eeb2ffd0615426fa1",
+      "refs": [
+        {
+          "ref": "refs/heads/claude/daf-hardened-architecture-v2-8dpdfy",
+          "object": "e7d9e389260160431eb691876915ec5272bb7450",
+          "commit": "e7d9e389260160431eb691876915ec5272bb7450",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/claude/daf-hardened-architecture-v2-8dpdfy"
+        },
+        {
+          "ref": "refs/heads/claude/deterministic-state-architecture-q9kl5c",
+          "object": "b40abcc2160de5c91d98dd6eeb2ffd0615426fa1",
+          "commit": "b40abcc2160de5c91d98dd6eeb2ffd0615426fa1",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/claude/deterministic-state-architecture-q9kl5c"
+        },
+        {
+          "ref": "refs/heads/codex/interval-requirement-v1",
+          "object": "2a144e252607546ca6b20e6dd4613d3a4146758a",
+          "commit": "2a144e252607546ca6b20e6dd4613d3a4146758a",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/codex/interval-requirement-v1"
+        },
+        {
+          "ref": "refs/heads/codex/native-interop-v1",
+          "object": "fd61efb3e0e5868d0f95ba27706b64a9afca595f",
+          "commit": "fd61efb3e0e5868d0f95ba27706b64a9afca595f",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/codex/native-interop-v1"
+        },
+        {
+          "ref": "refs/heads/codex/persistent-simulation-qualification-v1",
+          "object": "b9a2b177ceca71c620df963b0996dc7db6b10893",
+          "commit": "b9a2b177ceca71c620df963b0996dc7db6b10893",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/codex/persistent-simulation-qualification-v1"
+        },
+        {
+          "ref": "refs/heads/codex/polyglot-native-qualification-v1",
+          "object": "bc1e89d1ff8ceccd1ac03a4bde58becdefb5568d",
+          "commit": "bc1e89d1ff8ceccd1ac03a4bde58becdefb5568d",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/codex/polyglot-native-qualification-v1"
+        },
+        {
+          "ref": "refs/heads/codex/provider-host-ci-coverage-v1",
+          "object": "da2dc23857dd8665473d3b8d32e6b7452866e749",
+          "commit": "da2dc23857dd8665473d3b8d32e6b7452866e749",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/codex/provider-host-ci-coverage-v1"
+        },
+        {
+          "ref": "refs/heads/codex/reaction-kinetics-v1",
+          "object": "7e41b5a104526929c531a069a9872cf92ab277cc",
+          "commit": "7e41b5a104526929c531a069a9872cf92ab277cc",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/codex/reaction-kinetics-v1"
+        },
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "4dc82a449ba218a3b5547c038cd814c1fa4418b2",
+          "commit": "4dc82a449ba218a3b5547c038cd814c1fa4418b2",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/firm-expertise-workloads-20260929",
+          "object": "148d0941377697f87560230ab41e6cc1f0440142",
+          "commit": "148d0941377697f87560230ab41e6cc1f0440142",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/docs/firm-expertise-workloads-20260929"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "47f4b947a49cbae98512495ec38dfa6193f41075",
+          "commit": "47f4b947a49cbae98512495ec38dfa6193f41075",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "9d0021b33ec5bf2ef30a6e19275c230c20e644f9",
+          "commit": "9d0021b33ec5bf2ef30a6e19275c230c20e644f9",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/feat/core-sympy-ceres-pyo3-v1-20260929",
+          "object": "18c20f810e3801005a64b844f1acb8e1fcbf7250",
+          "commit": "18c20f810e3801005a64b844f1acb8e1fcbf7250",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/feat/core-sympy-ceres-pyo3-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/dsp-instrument-bindings-v1-20260929",
+          "object": "91a6d3b37f28623332acd485e9f8a12953acf71e",
+          "commit": "91a6d3b37f28623332acd485e9f8a12953acf71e",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/feat/dsp-instrument-bindings-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/juliaintervals-validated-numerics-v1-20260929",
+          "object": "e7ec197fd5a1f4060f0961fb11e0749b6dcc74ae",
+          "commit": "e7ec197fd5a1f4060f0961fb11e0749b6dcc74ae",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/feat/juliaintervals-validated-numerics-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/proof/f2-checker-foundation",
+          "object": "38159c556f18a266ee3ba7531e5872a6760f07bb",
+          "commit": "38159c556f18a266ee3ba7531e5872a6760f07bb",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/proof/f2-checker-foundation"
+        },
+        {
+          "ref": "refs/heads/proof/private-heat-qualification",
+          "object": "cf0d1a80bbabc50463a139d11e3d4e5cfaa0cfd3",
+          "commit": "cf0d1a80bbabc50463a139d11e3d4e5cfaa0cfd3",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/proof/private-heat-qualification"
+        },
+        {
+          "ref": "refs/heads/qualify/net-integrated-workloads-20260928",
+          "object": "7f8971976f161c7ca44b130de242827f5c52356e",
+          "commit": "7f8971976f161c7ca44b130de242827f5c52356e",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/qualify/net-integrated-workloads-20260928"
+        },
+        {
+          "ref": "refs/heads/qualify/net-stateful-studies-20260928",
+          "object": "7ebecfebc48904a2f35444c85ff6c84e3bb2831a",
+          "commit": "7ebecfebc48904a2f35444c85ff6c84e3bb2831a",
+          "retained_ref": "refs/tags/retired/compute-runtime/heads/qualify/net-stateful-studies-20260928"
+        },
+        {
+          "ref": "refs/pull/16/head",
+          "object": "9d0021b33ec5bf2ef30a6e19275c230c20e644f9",
+          "commit": "9d0021b33ec5bf2ef30a6e19275c230c20e644f9",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/16/head"
+        },
+        {
+          "ref": "refs/pull/15/head",
+          "object": "47f4b947a49cbae98512495ec38dfa6193f41075",
+          "commit": "47f4b947a49cbae98512495ec38dfa6193f41075",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/15/head"
+        },
+        {
+          "ref": "refs/pull/14/head",
+          "object": "148d0941377697f87560230ab41e6cc1f0440142",
+          "commit": "148d0941377697f87560230ab41e6cc1f0440142",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/14/head"
+        },
+        {
+          "ref": "refs/pull/13/head",
+          "object": "e7ec197fd5a1f4060f0961fb11e0749b6dcc74ae",
+          "commit": "e7ec197fd5a1f4060f0961fb11e0749b6dcc74ae",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/13/head"
+        },
+        {
+          "ref": "refs/pull/12/head",
+          "object": "18c20f810e3801005a64b844f1acb8e1fcbf7250",
+          "commit": "18c20f810e3801005a64b844f1acb8e1fcbf7250",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/12/head"
+        },
+        {
+          "ref": "refs/pull/11/head",
+          "object": "91a6d3b37f28623332acd485e9f8a12953acf71e",
+          "commit": "91a6d3b37f28623332acd485e9f8a12953acf71e",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/11/head"
+        },
+        {
+          "ref": "refs/pull/10/head",
+          "object": "7ebecfebc48904a2f35444c85ff6c84e3bb2831a",
+          "commit": "7ebecfebc48904a2f35444c85ff6c84e3bb2831a",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/10/head"
+        },
+        {
+          "ref": "refs/pull/9/head",
+          "object": "7f8971976f161c7ca44b130de242827f5c52356e",
+          "commit": "7f8971976f161c7ca44b130de242827f5c52356e",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/9/head"
+        },
+        {
+          "ref": "refs/pull/8/head",
+          "object": "b9a2b177ceca71c620df963b0996dc7db6b10893",
+          "commit": "b9a2b177ceca71c620df963b0996dc7db6b10893",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/8/head"
+        },
+        {
+          "ref": "refs/pull/7/head",
+          "object": "bc1e89d1ff8ceccd1ac03a4bde58becdefb5568d",
+          "commit": "bc1e89d1ff8ceccd1ac03a4bde58becdefb5568d",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/7/head"
+        },
+        {
+          "ref": "refs/pull/6/head",
+          "object": "cf0d1a80bbabc50463a139d11e3d4e5cfaa0cfd3",
+          "commit": "cf0d1a80bbabc50463a139d11e3d4e5cfaa0cfd3",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/6/head"
+        },
+        {
+          "ref": "refs/pull/5/head",
+          "object": "38159c556f18a266ee3ba7531e5872a6760f07bb",
+          "commit": "38159c556f18a266ee3ba7531e5872a6760f07bb",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/5/head"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "da2dc23857dd8665473d3b8d32e6b7452866e749",
+          "commit": "da2dc23857dd8665473d3b8d32e6b7452866e749",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "2a144e252607546ca6b20e6dd4613d3a4146758a",
+          "commit": "2a144e252607546ca6b20e6dd4613d3a4146758a",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "7e41b5a104526929c531a069a9872cf92ab277cc",
+          "commit": "7e41b5a104526929c531a069a9872cf92ab277cc",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "fd61efb3e0e5868d0f95ba27706b64a9afca595f",
+          "commit": "fd61efb3e0e5868d0f95ba27706b64a9afca595f",
+          "retained_ref": "refs/tags/retired/compute-runtime/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/compute-runtime.json",
+        "sha256": "c81c4051fc278b68373a4de1a5d67fcbaaaf2c622dfe25857132c54184fbd52e"
+      }
+    },
+    {
+      "id": "flowstate",
+      "repository": "giasonpooni/Notations-FlowState",
+      "repository_id": 1366033244,
+      "import_revision": "3144e3e694419b0c8579938e8d28523174e36abd",
+      "upstream_default_revision": "719cb9339546f5371c9747a4dae709c6361ed964",
+      "refs": [
+        {
+          "ref": "refs/heads/claude/charming-cerf-kzwzw9",
+          "object": "d9d8961951c706bfa292ea7bbe47ae8759a3868b",
+          "commit": "d9d8961951c706bfa292ea7bbe47ae8759a3868b",
+          "retained_ref": "refs/tags/retired/flowstate/heads/claude/charming-cerf-kzwzw9"
+        },
+        {
+          "ref": "refs/heads/claude/dazzling-turing-akgq6u",
+          "object": "5659200e1392fd3f887df658748ae90f1f47e5be",
+          "commit": "5659200e1392fd3f887df658748ae90f1f47e5be",
+          "retained_ref": "refs/tags/retired/flowstate/heads/claude/dazzling-turing-akgq6u"
+        },
+        {
+          "ref": "refs/heads/codex/polyglot-uncertainty-v1",
+          "object": "c9f211cf672e9e10d3be85ea6eccae3e9894a211",
+          "commit": "c9f211cf672e9e10d3be85ea6eccae3e9894a211",
+          "retained_ref": "refs/tags/retired/flowstate/heads/codex/polyglot-uncertainty-v1"
+        },
+        {
+          "ref": "refs/heads/codex/role-based-licensing",
+          "object": "a9827d207a6d1f409322f5e737e10195cf2d67b9",
+          "commit": "a9827d207a6d1f409322f5e737e10195cf2d67b9",
+          "retained_ref": "refs/tags/retired/flowstate/heads/codex/role-based-licensing"
+        },
+        {
+          "ref": "refs/heads/docs/net-controller-boundary-20260927",
+          "object": "989d1ba8ee7aaf7201acebeed7442933b36b5130",
+          "commit": "989d1ba8ee7aaf7201acebeed7442933b36b5130",
+          "retained_ref": "refs/tags/retired/flowstate/heads/docs/net-controller-boundary-20260927"
+        },
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "c08b18beac1730c969b12dca904f9e20dd300ddf",
+          "commit": "c08b18beac1730c969b12dca904f9e20dd300ddf",
+          "retained_ref": "refs/tags/retired/flowstate/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "6f0deb0cf0acfa192a6071e7284536b86bdade5c",
+          "commit": "6f0deb0cf0acfa192a6071e7284536b86bdade5c",
+          "retained_ref": "refs/tags/retired/flowstate/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/public-research-profile-20260929",
+          "object": "ec8f6f93b3b3ea4c5c1e062d7552cef3cc65ab4f",
+          "commit": "ec8f6f93b3b3ea4c5c1e062d7552cef3cc65ab4f",
+          "retained_ref": "refs/tags/retired/flowstate/heads/docs/public-research-profile-20260929"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "719cb9339546f5371c9747a4dae709c6361ed964",
+          "commit": "719cb9339546f5371c9747a4dae709c6361ed964",
+          "retained_ref": "refs/tags/retired/flowstate/heads/main"
+        },
+        {
+          "ref": "refs/pull/6/head",
+          "object": "6f0deb0cf0acfa192a6071e7284536b86bdade5c",
+          "commit": "6f0deb0cf0acfa192a6071e7284536b86bdade5c",
+          "retained_ref": "refs/tags/retired/flowstate/pull/6/head"
+        },
+        {
+          "ref": "refs/pull/5/head",
+          "object": "c08b18beac1730c969b12dca904f9e20dd300ddf",
+          "commit": "c08b18beac1730c969b12dca904f9e20dd300ddf",
+          "retained_ref": "refs/tags/retired/flowstate/pull/5/head"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "ec8f6f93b3b3ea4c5c1e062d7552cef3cc65ab4f",
+          "commit": "ec8f6f93b3b3ea4c5c1e062d7552cef3cc65ab4f",
+          "retained_ref": "refs/tags/retired/flowstate/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "c9f211cf672e9e10d3be85ea6eccae3e9894a211",
+          "commit": "c9f211cf672e9e10d3be85ea6eccae3e9894a211",
+          "retained_ref": "refs/tags/retired/flowstate/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "989d1ba8ee7aaf7201acebeed7442933b36b5130",
+          "commit": "989d1ba8ee7aaf7201acebeed7442933b36b5130",
+          "retained_ref": "refs/tags/retired/flowstate/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "e63c059fd5a75e5469123ccae108f6d1a70782f8",
+          "commit": "e63c059fd5a75e5469123ccae108f6d1a70782f8",
+          "retained_ref": "refs/tags/retired/flowstate/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/flowstate.json",
+        "sha256": "407706a6ec11fe0f306e0c0b0ff6d6daa9b73d31f3a3e827ac59218db30edc39"
+      }
+    },
+    {
+      "id": "scientific-language",
+      "repository": "atomtrapping/Notations-Scientific-Language-RunTIme",
+      "repository_id": 1396593918,
+      "import_revision": "1b201eb207c01f9a01df629464b6bef4efbd5104",
+      "upstream_default_revision": "1b201eb207c01f9a01df629464b6bef4efbd5104",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "6deb33a21a3eae6b152d9c79b0a476732c7a5259",
+          "commit": "6deb33a21a3eae6b152d9c79b0a476732c7a5259",
+          "retained_ref": "refs/tags/retired/scientific-language/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "89533b3ef0ca0a2382376eada86314c7fc0b5daa",
+          "commit": "89533b3ef0ca0a2382376eada86314c7fc0b5daa",
+          "retained_ref": "refs/tags/retired/scientific-language/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/public-research-profile-20260929",
+          "object": "928b8de337933361d1be8504c876290756bb956b",
+          "commit": "928b8de337933361d1be8504c876290756bb956b",
+          "retained_ref": "refs/tags/retired/scientific-language/heads/docs/public-research-profile-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/scientific-language-to-nise-v1-20260929",
+          "object": "0f7d1d3621553c164a6fb38910fc4a11ad394b97",
+          "commit": "0f7d1d3621553c164a6fb38910fc4a11ad394b97",
+          "retained_ref": "refs/tags/retired/scientific-language/heads/feat/scientific-language-to-nise-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "1b201eb207c01f9a01df629464b6bef4efbd5104",
+          "commit": "1b201eb207c01f9a01df629464b6bef4efbd5104",
+          "retained_ref": "refs/tags/retired/scientific-language/heads/main"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "89533b3ef0ca0a2382376eada86314c7fc0b5daa",
+          "commit": "89533b3ef0ca0a2382376eada86314c7fc0b5daa",
+          "retained_ref": "refs/tags/retired/scientific-language/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "6deb33a21a3eae6b152d9c79b0a476732c7a5259",
+          "commit": "6deb33a21a3eae6b152d9c79b0a476732c7a5259",
+          "retained_ref": "refs/tags/retired/scientific-language/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "928b8de337933361d1be8504c876290756bb956b",
+          "commit": "928b8de337933361d1be8504c876290756bb956b",
+          "retained_ref": "refs/tags/retired/scientific-language/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "0f7d1d3621553c164a6fb38910fc4a11ad394b97",
+          "commit": "0f7d1d3621553c164a6fb38910fc4a11ad394b97",
+          "retained_ref": "refs/tags/retired/scientific-language/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/scientific-language.json",
+        "sha256": "e9f7e51ea278d63a5c59e0e2d98ad0dc313ad91b21ee6a7a3f4691a2abc384ba"
+      }
+    },
+    {
+      "id": "inference-schematics",
+      "repository": "atomtrapping/Notations-Inference-Schematics-Engine",
+      "repository_id": 1396588923,
+      "import_revision": "81908ddbe817018af5d9887a6bdd9cce3e3eafc6",
+      "upstream_default_revision": "81908ddbe817018af5d9887a6bdd9cce3e3eafc6",
+      "refs": [
+        {
+          "ref": "refs/heads/docs/notations-organization-20261003",
+          "object": "beda1d91468c8c113e4da29bf2bcf5e323231171",
+          "commit": "beda1d91468c8c113e4da29bf2bcf5e323231171",
+          "retained_ref": "refs/tags/retired/inference-schematics/heads/docs/notations-organization-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/physical-virtual-systems-20261003",
+          "object": "0c8e42e4cdf49313a0274dd4366d97e118b0cf3f",
+          "commit": "0c8e42e4cdf49313a0274dd4366d97e118b0cf3f",
+          "retained_ref": "refs/tags/retired/inference-schematics/heads/docs/physical-virtual-systems-20261003"
+        },
+        {
+          "ref": "refs/heads/docs/public-research-profile-20260929",
+          "object": "76229ce99c944f4193295075386dded7d02bda46",
+          "commit": "76229ce99c944f4193295075386dded7d02bda46",
+          "retained_ref": "refs/tags/retired/inference-schematics/heads/docs/public-research-profile-20260929"
+        },
+        {
+          "ref": "refs/heads/feat/nise-schematic-engine-v1-20260929",
+          "object": "3bd8d7850f55d42a413ec8e73bc538ee331adc42",
+          "commit": "3bd8d7850f55d42a413ec8e73bc538ee331adc42",
+          "retained_ref": "refs/tags/retired/inference-schematics/heads/feat/nise-schematic-engine-v1-20260929"
+        },
+        {
+          "ref": "refs/heads/main",
+          "object": "81908ddbe817018af5d9887a6bdd9cce3e3eafc6",
+          "commit": "81908ddbe817018af5d9887a6bdd9cce3e3eafc6",
+          "retained_ref": "refs/tags/retired/inference-schematics/heads/main"
+        },
+        {
+          "ref": "refs/pull/4/head",
+          "object": "0c8e42e4cdf49313a0274dd4366d97e118b0cf3f",
+          "commit": "0c8e42e4cdf49313a0274dd4366d97e118b0cf3f",
+          "retained_ref": "refs/tags/retired/inference-schematics/pull/4/head"
+        },
+        {
+          "ref": "refs/pull/3/head",
+          "object": "beda1d91468c8c113e4da29bf2bcf5e323231171",
+          "commit": "beda1d91468c8c113e4da29bf2bcf5e323231171",
+          "retained_ref": "refs/tags/retired/inference-schematics/pull/3/head"
+        },
+        {
+          "ref": "refs/pull/2/head",
+          "object": "76229ce99c944f4193295075386dded7d02bda46",
+          "commit": "76229ce99c944f4193295075386dded7d02bda46",
+          "retained_ref": "refs/tags/retired/inference-schematics/pull/2/head"
+        },
+        {
+          "ref": "refs/pull/1/head",
+          "object": "3bd8d7850f55d42a413ec8e73bc538ee331adc42",
+          "commit": "3bd8d7850f55d42a413ec8e73bc538ee331adc42",
+          "retained_ref": "refs/tags/retired/inference-schematics/pull/1/head"
+        }
+      ],
+      "metadata": {
+        "path": "docs/retirement/evidence/inference-schematics.json",
+        "sha256": "b973f13832a7b86650c9926a7e7fc365299dfff05835dceb9f9cc2ffa7f70173"
+      }
+    }
+  ]
+}
