@@ -52,7 +52,10 @@ def main(argv: list[str] | None = None) -> int:
         command.add_argument("--workspace", type=Path, required=True)
         command.add_argument("--json", action="store_true")
         if action in {"run", "replay", "study", "replay-study"}:
-            command.add_argument("--binding", action="append", default=[], metavar="ROLE=ABSOLUTE_PATH")
+            host_bindings = command.add_mutually_exclusive_group()
+            host_bindings.add_argument("--binding", action="append", default=[], metavar="ROLE=ABSOLUTE_PATH")
+            host_bindings.add_argument("--bindings-file", type=Path,
+                help="Explicit operator provisioning file; retained workspace paths never activate providers")
             command.add_argument("--output-dir", type=Path, required=True)
         if action == "run":
             command.add_argument("--kind", required=True)
@@ -93,7 +96,13 @@ def main(argv: list[str] | None = None) -> int:
                 "samples": len(value["stream"]["observations"]), "output": str(args.output),
                 "record_digest": value["record_digest"], "authority": value["authority"]}, args.json)
             return 0
+        binding_record = None
         bindings = scientific.parse_bindings(args.binding) if args.command in {"run", "replay", "study", "replay-study"} else None
+        if getattr(args, "bindings_file", None) is not None:
+            from .operator_provision import load_bindings_file
+            selected_kind = args.kind if args.command == "run" else "curved-path-transfer" if args.command in {"study", "replay-study"} else None
+            binding_record = load_bindings_file(args.bindings_file, workflow=selected_kind)
+            bindings = binding_record["bindings"]
         # Source preflight and exact bytes are frozen before output or provider setup.
         if args.command == "run":
             raw = scientific.read_source(args.source)
@@ -107,6 +116,10 @@ def main(argv: list[str] | None = None) -> int:
                 limits={"max_abs_lateral": args.max_lateral, "max_abs_heading": args.max_heading,
                         "units": {"length": args.length_unit, "angle": "radian"}})
         with scientific.open_workspace(args.workspace, getattr(args, "output_dir", None)) as session:
+            if binding_record is not None and args.command == "replay":
+                original = scientific.selected_bundle(session, args.bundle)
+                if binding_record["workflow"] != original["kind"]:
+                    raise ValueError("Operator bindings select a different retained workflow")
             if args.command == "run":
                 value = scientific.execute(session, args.kind, raw, label=args.label, repositories=bindings,
                                            upstream_bundle_id=args.upstream_bundle, configuration=config)

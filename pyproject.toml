@@ -27,7 +27,7 @@ net = "ciw.net:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-ciw = ["engine_assets/godot_motion/*", "godot_runtime/*.gd", "viewer_assets/spatial/*", "web/*.html", "web/*.css", "web/*.js", "native-interop-runtimes.json", "plsr-runtime.json", "adapter-runtimes.json", "exchange-runtime.json", "telemetry-runtimes.json", "calibrated-observable-runtimes.json", "identified-design-runtimes.json", "esm-runtime.json", "calibrated-window-runtimes.json"]
+ciw = ["operator_examples/*.json", "engine_assets/godot_motion/*", "godot_runtime/*.gd", "viewer_assets/spatial/*", "web/*.html", "web/*.css", "web/*.js", "native-interop-runtimes.json", "plsr-runtime.json", "adapter-runtimes.json", "exchange-runtime.json", "telemetry-runtimes.json", "calibrated-observable-runtimes.json", "identified-design-runtimes.json", "esm-runtime.json", "calibrated-window-runtimes.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

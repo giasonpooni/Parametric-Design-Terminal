@@ -66,14 +66,24 @@ The migration and qualification guides record the current dependency closure.
 
 ## Quickstart
 
-Python **3.11 or newer** is required. From a checkout:
+Follow the [operator quickstart](docs/quickstart.md) to install, check and use the
+instrument. `net catalog` shows its command surfaces and scientific provider
+requirements; `net start --output-dir results/first-use-001` runs the bounded
+synthetic first-use check and retains its completion receipt. Start or resume
+one local investigation with `net workbench --output-dir results/workbench`.
+
+The [operator readiness guide](docs/OPERATOR_READINESS.md) explains exact public
+provider provisioning and specialist qualification. Scientific provider and
+engine dependencies remain optional and explicitly bound. Reading retained
+results must not silently launch a runtime or rerun an experiment.
+
 
 ```sh
-python -m pip install -e .
-net demo --output-dir results/net-demo
-net providers --json
-net capabilities --json
-net science catalog
+python -m pip install .
+net doctor --profile core
+net catalog
+net start --output-dir results/first-use-001
+net workbench --output-dir results/workbench
 ```
 
 For the signed legibility demonstration:

@@ -2,18 +2,19 @@
 from __future__ import annotations
 
 import argparse
+from importlib import import_module
 from copy import deepcopy
 import json
 from pathlib import Path
 import sys
 import tempfile
 
-from .control_contracts import load, save_new, keys
-from .control_plane import CapabilityRegistry, ObservationBus, builtin_registry, experiment, observations_from_run, plan_graph, run_graph
-from .control_checks import compare, inspect_record
+from .operator_commands import COMMANDS
 
 
 def _registry(path: Path | None, *, bind: bool = False) -> CapabilityRegistry:
+    from .control_contracts import load, keys
+    from .control_plane import CapabilityRegistry, builtin_registry
     if path is None:
         return builtin_registry(bind=bind)
     if bind:
@@ -50,6 +51,8 @@ def _registry(path: Path | None, *, bind: bool = False) -> CapabilityRegistry:
 
 
 def inspect_path(path: Path, kind: str = "auto") -> dict:
+    from .control_contracts import load, save_new
+    from .control_checks import inspect_record
     value = load(path)
     if type(value) is dict and "workspace_version" in value:
         if kind not in {"auto", "workspace", "run"}:
@@ -116,146 +119,17 @@ def _node(name: str, operation: str, dependencies: list[str] | None = None) -> d
 
 def main(argv: list[str] | None = None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
-    if argv and argv[0] == "polymer":
-        from .polymer_cli import main as polymer_main
-        return polymer_main(argv[1:])
-    if argv and argv[0] == "compose":
-        from .workflow_cli import main as compose_main
-        return compose_main(argv[1:])
-    if argv and argv[0] == "dsp":
-        from .dsp_workflow import main as dsp_main
-        return dsp_main(argv[1:])
-    if argv and argv[0] == "atmosphere":
-        from .atmosphere_cli import main as atmosphere_main
-        return atmosphere_main(argv[1:])
-    if argv and argv[0] == "impact":
-        from .impact_cli import main as impact_main
-        return impact_main(argv[1:])
-    if argv and argv[0] == "lab":
-        from .preservation_experiments import main as lab_main
-        return lab_main(argv[1:])
-    if argv and argv[:2] == ["foundry", "childhood"]:
+    if argv[:2] == ["foundry", "childhood"]:
         from .foundry_childhood import main as childhood_main
         return childhood_main(argv[2:])
-    if argv and argv[0] == "foundry":
-        from .foundry_workflow import main as foundry_main
-        return foundry_main(argv[1:])
-    if argv and argv[0] == "object":
-        from .computational_cli import main as object_main
-        return object_main(argv[1:])
-    if argv and argv[0] == "semantic":
-        from .semantic_cli import main as semantic_main
-        return semantic_main(argv[1:])
-    if argv and argv[0] == "instrument":
-        from .instrument_cli import main as instrument_main
-        return instrument_main(argv[1:])
-    if argv and argv[0] == "nise":
-        from .nise_cli import main as nise_main
-        return nise_main(argv[1:])
-    if argv and argv[0] == "annotation":
-        from .annotation_cli import main as annotation_main
-        return annotation_main(argv[1:])
-    if argv and argv[0] == "efficiency":
-        from .efficiency_cli import main as efficiency_main
-        return efficiency_main(argv[1:])
-    if argv and argv[0] == "container":
-        from .container_cli import main as container_main
-        return container_main(argv[1:])
-    if argv and argv[0] == "needle":
-        from .needle_cli import main as needle_main
-        return needle_main(argv[1:])
-    if argv and argv[0] == "board":
-        from .board_cli import main as board_main
-        return board_main(argv[1:])
-    if argv and argv[0] == "parameter":
-        from .parameter_cli import main as parameter_main
-        return parameter_main(argv[1:])
-    if argv and argv[0] == "morphism":
-        from .morphism_cli import main as morphism_main
-        return morphism_main(argv[1:])
-    if argv and argv[0] == "preservation":
-        from .preservation_cli import main as preservation_main
-        return preservation_main(argv[1:])
-    if argv and argv[0] == "transition":
-        from .transition_cli import main as transition_main
-        return transition_main(argv[1:])
-    if argv and argv[0] == "interop":
-        from .interop_cli import main as interop_main
-        return interop_main(argv[1:])
-    if argv and argv[0] == "interop-bim":
-        from .bim_interop_cli import main as bim_interop_main
-        return bim_interop_main(argv[1:])
-    if argv and argv[0] == "provenance":
-        from .provenance_cli import main as provenance_main
-        return provenance_main(argv[1:])
-    if argv and argv[0] == "columnar":
-        from .columnar_cli import main as columnar_main
-        return columnar_main(argv[1:])
-    if argv and argv[0] == "workcell":
-        from .workcell_cli import main as workcell_main
-        return workcell_main(argv[1:])
-    if argv and argv[0] == "history":
-        from .perspective_workflow import main as history_main
-        return history_main(argv[1:])
-    if argv and argv[0] == "production":
-        from .production_workflow import main as production_main
-        return production_main(argv[1:])
-    if argv and argv[0] == "tools":
-        from .csr_microtools import main as tools_main
-        return tools_main(argv[1:])
-    if argv and argv[0] == "simulation":
-        from .simulation_cli import main as simulation_main
-        return simulation_main(argv[1:])
-    if argv and argv[0] == "simulate":
-        from .simulation_study import main as simulate_main
-        return simulate_main(argv[1:])
-    if argv and argv[0] == "math":
-        from .math_inspector import main as math_main
-        return math_main(argv[1:])
-    if argv and argv[0] == "view":
-        from .math_visual import main as view_main
-        return view_main(argv[1:])
-    if argv and argv[0] == "check":
-        from .check_suite import main as check_main
-        return check_main(argv[1:])
-    if argv and argv[0] == "science":
-        from .scientific_cli import main as science_main
-        return science_main(argv[1:])
+    for name, module, _purpose in COMMANDS:
+        if argv and argv[0] == name:
+            command_main = import_module("." + module, __package__).main
+            return command_main(argv if name == "legibility" else argv[1:])
     parser = argparse.ArgumentParser(prog="net", description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
-    commands.add_parser("compose", help="Compile typed wiring and checked stages into existing NET graphs")
-    commands.add_parser("dsp", help="Run and inspect the bounded specialist DSP instrument")
-    commands.add_parser("impact", help="Run the bounded elastic contact benchmark with independent verification")
-    commands.add_parser("lab", help="Run bounded shared-preservation experiments")
-    commands.add_parser("foundry", help="Run explicit foundry workflows and childhood compilation")
-    commands.add_parser("atmosphere", help="Compile and independently check a bounded dry atmospheric column")
-    commands.add_parser("object", help="Inspect committed source, export bounded context, and compare retained observations")
-    commands.add_parser("semantic", help="Compile stable semantic capabilities into existing NET experiments")
-    commands.add_parser("instrument", help="Inspect portable instrument manifests and verification reports")
-    commands.add_parser("nise", help="Compile NISE schematic operations through an operator NET binding plan")
-    commands.add_parser("annotation", help="Create, inspect and project immutable human annotations")
-    commands.add_parser("efficiency", help="Measure and compare representation-preserving investigation resource use")
-    commands.add_parser("container", help="Define/compose computational boundaries and retain occurrence telemetry")
-    commands.add_parser("needle", help="Apply an immutable local intervention and selectively recompute dependency descendants")
-    commands.add_parser("board", help="Create and compile the parameterized typed System Board")
-    commands.add_parser("parameter", help="Create deterministic parameter programs and immutable candidate Boards")
-    commands.add_parser("preservation", help="Declare, compose and verify typed preservation contracts")
-    commands.add_parser("transition", help="Bind cross-system identity and package candidate state transitions for authority review")
-    commands.add_parser("interop", help="Bind external standards/proprietary schemas into NET identity and preservation workflows")
-    commands.add_parser("interop-bim", help="Execute qualified IFC ingress through the existing CSE BIM runtime")
-    commands.add_parser("morphism", help="Create and inspect scientific representation/morphism contracts")
-    commands.add_parser("provenance", help="Create and inspect portable artifact/IP provenance declarations")
-    commands.add_parser("columnar", help="Export/import bounded observation streams as Arrow IPC or Parquet")
-    commands.add_parser("workcell", help="Operator-bound container compilation and agent work slots")
-    commands.add_parser("history", help="Compile bounded actor perspectives and audit annotated dialogue")
-    commands.add_parser("production", help="Plan and inspect explicit game-project and reconstruction production")
-    commands.add_parser("tools", help="Surface Path micro-tools: catalog, run, inspect and replay")
-    commands.add_parser("simulation", help="Provider-owned stateful experiments and replay")
-    commands.add_parser("simulate", help="Stateful oscillator studies: observers, interventions, branches and reproduction")
-    commands.add_parser("math", help="Derive bounded covariance and innovation display diagnostics")
-    commands.add_parser("view", help="Create a local interactive mathematical inspector")
-    commands.add_parser("check", help="Apply a declared numerical check plan to retained evidence")
-    commands.add_parser("science", help="Existing scientific workflows: catalog, run, replay, inspect, state, observations, study, replay-study")
+    for name, _module, purpose in COMMANDS:
+        commands.add_parser(name, help=purpose)
     for name in ("providers", "capabilities"):
         command = commands.add_parser(name)
         command.add_argument("--catalog", type=Path)
@@ -280,6 +154,9 @@ def main(argv: list[str] | None = None) -> int:
     command = commands.add_parser("demo")
     command.add_argument("--output-dir", type=Path, required=True)
     args = parser.parse_args(argv)
+    from .control_contracts import load, save_new
+    from .control_plane import ObservationBus, builtin_registry, experiment, observations_from_run, plan_graph, run_graph
+    from .control_checks import compare, inspect_record
     try:
         if args.command in {"providers", "capabilities"}:
             result = _registry(args.catalog).catalog(getattr(args, "capability", None))

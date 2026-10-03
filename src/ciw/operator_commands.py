@@ -1,0 +1,49 @@
+"""One navigation table for NET help, lazy command dispatch and operator catalog.
+
+Entries name installed, trusted CLI modules. Retained data cannot add commands.
+"""
+from __future__ import annotations
+
+# (command, module, purpose)
+COMMANDS = (
+    ('catalog', 'operator_catalog', 'Discover every command surface and declared scientific provider requirement'),
+    ('doctor', 'operator_doctor', 'Check local dependency and explicit provider identity metadata'),
+    ('start', 'operator_start', 'Run and retain the bounded first-use installation check'),
+    ('workbench', 'operator_workbench', 'Start or resume the persistent local Session service'),
+    ('provision', 'operator_provision', 'Create exact local provider checkouts from retained public Git history'),
+    ('legibility', 'cli', 'Compile and verify synchronized specimen representations'),
+    ('polymer', 'polymer_cli', 'Inspect retained polymer cycle metrology and bounded control testbeds'),
+    ('compose', 'workflow_cli', 'Compile typed wiring and checked stages into existing NET graphs'),
+    ('dsp', 'dsp_workflow', 'Run and inspect the bounded specialist DSP instrument'),
+    ('impact', 'impact_cli', 'Run the bounded elastic contact benchmark with independent verification'),
+    ('lab', 'preservation_experiments', 'Run bounded shared-preservation experiments'),
+    ('foundry', 'foundry_workflow', 'Run explicit foundry workflows and childhood compilation'),
+    ('atmosphere', 'atmosphere_cli', 'Compile and independently check a bounded dry atmospheric column'),
+    ('object', 'computational_cli', 'Inspect committed source, export bounded context, and compare retained observations'),
+    ('semantic', 'semantic_cli', 'Compile stable semantic capabilities into existing NET experiments'),
+    ('instrument', 'instrument_cli', 'Inspect portable instrument manifests and verification reports'),
+    ('nise', 'nise_cli', 'Compile NISE schematic operations through an operator NET binding plan'),
+    ('annotation', 'annotation_cli', 'Create, inspect and project immutable human annotations'),
+    ('efficiency', 'efficiency_cli', 'Measure and compare representation-preserving investigation resource use'),
+    ('container', 'container_cli', 'Define/compose computational boundaries and retain occurrence telemetry'),
+    ('needle', 'needle_cli', 'Apply an immutable local intervention and selectively recompute dependency descendants'),
+    ('board', 'board_cli', 'Create and compile the parameterized typed System Board'),
+    ('parameter', 'parameter_cli', 'Create deterministic parameter programs and immutable candidate Boards'),
+    ('preservation', 'preservation_cli', 'Declare, compose and verify typed preservation contracts'),
+    ('transition', 'transition_cli', 'Bind cross-system identity and package candidate state transitions for authority review'),
+    ('interop', 'interop_cli', 'Bind external standards/proprietary schemas into NET identity and preservation workflows'),
+    ('interop-bim', 'bim_interop_cli', 'Execute qualified IFC ingress through the existing CSE BIM runtime'),
+    ('morphism', 'morphism_cli', 'Create and inspect scientific representation/morphism contracts'),
+    ('provenance', 'provenance_cli', 'Create and inspect portable artifact/IP provenance declarations'),
+    ('columnar', 'columnar_cli', 'Export/import bounded observation streams as Arrow IPC or Parquet'),
+    ('workcell', 'workcell_cli', 'Operator-bound container compilation and agent work slots'),
+    ('history', 'perspective_workflow', 'Compile bounded actor perspectives and audit annotated dialogue'),
+    ('production', 'production_workflow', 'Plan and inspect explicit game-project and reconstruction production'),
+    ('tools', 'csr_microtools', 'Surface Path micro-tools: catalog, run, inspect and replay'),
+    ('simulation', 'simulation_cli', 'Provider-owned stateful experiments and replay'),
+    ('simulate', 'simulation_study', 'Stateful oscillator studies: observers, interventions, branches and reproduction'),
+    ('math', 'math_inspector', 'Derive bounded covariance and innovation display diagnostics'),
+    ('view', 'math_visual', 'Create a local interactive mathematical inspector'),
+    ('check', 'check_suite', 'Apply a declared numerical check plan to retained evidence'),
+    ('science', 'scientific_cli', 'Existing scientific workflows: catalog, run, replay, inspect, state, observations, study, replay-study'),
+)

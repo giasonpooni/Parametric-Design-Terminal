@@ -24,6 +24,9 @@ def _git(path: Path, *arguments: str) -> bytes:
     # Avoid even Git's optional index refresh when inspecting operator-owned
     # checkouts. Command-scoped configuration never changes their config files.
     environment = {**os.environ, "GIT_OPTIONAL_LOCKS": "0", "GIT_NO_LAZY_FETCH": "1"}
+    for name in ("GIT_DIR", "GIT_COMMON_DIR", "GIT_WORK_TREE", "GIT_INDEX_FILE", "GIT_OBJECT_DIRECTORY",
+                 "GIT_ALTERNATE_OBJECT_DIRECTORIES"):
+        environment.pop(name, None)
     try:
         return subprocess.run(
             ["git", "--no-replace-objects", "-c", "core.fsmonitor=false", "-c", "core.autocrlf=false",
@@ -51,7 +54,18 @@ def validate_checkout(path: Path, revision: str) -> Path:
     return _validate_checkout(path, revision, set())
 
 
-def _validate_checkout(path: Path, revision: str, seen: set[Path]) -> Path:
+def validate_tracked_checkout(path: Path, revision: str) -> Path:
+    """Check committed/index/working bytes without classifying untracked files.
+
+    This narrow source preflight is useful before copying only committed Git
+    objects. It never authorizes importing working files and does not replace
+    strict provider validation, a monorepo import audit, or runtime qualification.
+    Initialized gitlinks retain their original strict validation.
+    """
+    return _validate_checkout(path, revision, set(), reject_untracked=False)
+
+
+def _validate_checkout(path: Path, revision: str, seen: set[Path], *, reject_untracked: bool = True) -> Path:
     path = Path(path).expanduser().resolve()
     if path in seen:
         raise ProviderCheckoutError(f"Provider gitlink forms a checkout cycle: {path}",
@@ -94,7 +108,7 @@ def _validate_checkout(path: Path, revision: str, seen: set[Path]) -> Path:
         raise ProviderCheckoutError(f"Provider checkout is dirty; index differs from its pin: {path}",
             classification="identity_mismatch", code="DIRTY_CHECKOUT")
     exclusions = [f":(exclude,glob)**/{name}/**" for name in sorted(_CACHE_DIRS)]
-    if _git(path, "ls-files", "--others", "-z", "--", ".", *exclusions):
+    if reject_untracked and _git(path, "ls-files", "--others", "-z", "--", ".", *exclusions):
         raise ProviderCheckoutError(f"Provider checkout contains untracked files outside runtime caches: {path}",
             classification="identity_mismatch", code="UNTRACKED_FILES")
     object_format = _git(path, "rev-parse", "--show-object-format").decode().strip()
